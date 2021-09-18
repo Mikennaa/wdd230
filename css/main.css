@@ -1,0 +1,29 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header, nav, main, footer { 
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header {
+    background-color:#BFD9D9;
+    color:white;
+    text-align:center;
+    padding: 1px;
+}
+
+p img {
+    float:left;
+    margin:10px;   
+}
+
+footer {
+    background-color:#BFD9D9;
+    color:white;
+    text-align: center;
+    padding:1px;
+}
