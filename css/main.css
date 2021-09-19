@@ -11,19 +11,21 @@ header, nav, main, footer {
 
 header {
     background-color:#BFD9D9;
-    color:white;
+    color:#6F7273;
     text-align:center;
     padding: 1px;
 }
 
-p img {
-    float:left;
+header img {
+    float:right;
+    width:200px;
+    height:auto;
     margin:10px;   
 }
 
 footer {
     background-color:#BFD9D9;
-    color:white;
+    color:#6F7273;
     text-align: center;
     padding:1px;
 }
