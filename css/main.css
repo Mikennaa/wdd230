@@ -29,3 +29,7 @@ footer {
     text-align: center;
     padding:10px;
 }
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
