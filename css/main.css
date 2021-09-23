@@ -11,7 +11,7 @@ header, nav, main, footer {
 
 header {
     background-color:#BFD9D9;
-    color:#6F7273;
+    color:#1B365C;
     text-align:center;
     padding: 1px;
 }
@@ -25,11 +25,11 @@ header img {
 
 footer {
     background-color:#BFD9D9;
-    color:#6F7273;
+    color: #1B365C;
     text-align: center;
     padding:10px;
 }
 
-p {
-    font-family: 'Quicksand', sans-serif;
+h1, h2, {
+    font-family:'Quicksand', sans-serif;
 }
