@@ -1,2 +1,4 @@
-document.querySelector("#copyrightyear").textContent=new Date().getFullYear();
-document.querySelector("#lastupdate").textContent='Last Updated: ${document.lastModified}';
+const copyrightyear=document.querySelector("#copyrightyear");
+copyrightyear.textContent=new Date().getFullYear();
+const lastupdate=document.lastModified;
+document.getElementById("lastupdate").textContent=lastupdate;
