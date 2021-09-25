@@ -1,0 +1,12 @@
+
+
+
+
+
+main{
+    display:grid;
+    grid-template-columns:1fr;
+    text-align:center;
+    height:auto;
+    width:fit-content;
+}
