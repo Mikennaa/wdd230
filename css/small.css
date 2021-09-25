@@ -27,12 +27,12 @@ header {
 
 header nav {
     background-color:#BFD9D9;
-    color:#1B365C;
+    color:black;
 }
 
 header, footer {
     background-color:#BFD9D9;
-    color:#1B365C;
+    color:black;
     text-align:center;
 }
 
@@ -43,7 +43,7 @@ header img {
 
 footer {
     background-color:#BFD9D9;
-    color: #1B365C;
+    color: black;
     text-align: center;
     padding:10px;
 }

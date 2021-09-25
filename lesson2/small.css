@@ -1,10 +1,20 @@
-
-
-
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size:13px;
 }
+
+header, footer {
+    background-color:#BFD9D9;
+    color:black;
+    padding:0.6rem;
+    text-align:center;
+    font-family:'Lora', serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
 
 main{
     display:grid;
@@ -14,7 +24,7 @@ main{
     width:fit-content;
     margin:0 auto;
     object-fit:scale-down;
-    font-size: size 1.2rem;
+    font-size: size 1.4rem;
     color:black;
 }
 
@@ -22,3 +32,5 @@ main section img{
     width:100%;
     height:auto;
 }
+
+font-family: 'Lora', serif;
