@@ -25,12 +25,16 @@ main{
     margin:0 auto;
     object-fit:scale-down;
     font-size: size 1.4rem;
+    line-height:.9rem;
     color:black;
 }
 
 main section img{
     width:100%;
     height:auto;
+    margin:.6rem;
+    padding: 0 .9rem;
+    box-shadow: 0 0 6px gray;
 }
 
 font-family: 'Lora', serif;
