@@ -12,3 +12,8 @@ main{
     object-fit:scale-down;
     font-size:0.8rem;
 }
+
+main section img{
+    width:100%;
+    height:auto;
+}
