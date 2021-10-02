@@ -123,3 +123,16 @@ font-weight:bold;
 text-align:left;
 font-family:'Poppins', sans-serif;
 }
+
+
+main section ul li {
+    text-align:left;
+    color:#262473;
+    padding:.6rem;
+    font-weight:normal;
+}
+
+.persona1 .persona2{
+padding:.6rem;
+margin:.5rem;
+}
