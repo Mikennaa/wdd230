@@ -9,11 +9,11 @@ header, footer {
     padding:0.6rem;
     text-align:center;
     font-family:'Lora', serif;
+    font-weight:bold;
 }
 
 h1, h2, h3 {
     font-family: 'Lora', serif;
-    text-align:left;
 }
 
 h1 {
@@ -22,15 +22,61 @@ h1 {
 
 h2 {
     font-size:1.3rem;
+    font-weight:bold;
+    color:#F2E205;
+    text-align:left;
 }
 
+h3 {
+    color:#262473;
+    text-align:left;
+}
+
+.author-name {
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+
+nav {
+    background-color:#6AAED9;
+    text-align:center;
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+
+nav ul li a{
+    display:block;
+    text-align:center;
+    padding:.70rem;
+    text-decoration:none;
+    color:white;
+    font-size:1.3rem;
+}
+
+nav a:hover{
+    background-color:white;
+    color:#034C8C
+}
+
+
 main{
+    display:grid;
+    grid-template-columns:1fr;
+    text-align:center;
+    height:auto;
+    width:fit-content;
     margin:0 auto;
     object-fit:scale-down;
     font-size: size 1.4rem;
     line-height:.98rem;
-    color:#F2E205;
-    background-color:white;
+    color:white;   
 }
 
 main section img{
@@ -40,8 +86,8 @@ main section img{
 }
 
 main section {
-    margin:0.9rem;
-    padding:0 1rem;
+    
+    background-color:white;
 }
 
 a {
@@ -50,5 +96,8 @@ a {
 }
 
 p {
-    color:white;
+    color:#262473;
+    text-align:left;
+    font-size:.9rem;
+    line-height:1.3rem;
 }
