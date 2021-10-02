@@ -132,7 +132,12 @@ main section ul li {
     font-weight:normal;
 }
 
-.persona1 .persona2{
+.persona1{
+    padding:.6rem;
+    margin:.7rem;
+}
+
+.persona2{
 padding:.6rem;
-margin:.5rem;
+margin:.7rem;
 }
