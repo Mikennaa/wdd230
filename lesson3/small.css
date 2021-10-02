@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    font-size:13px;
+    font-size:1.0rem;
 }
 
 header, footer {
@@ -17,11 +17,11 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size:3rem;
+    font-size:3.3rem;
 }
 
 h2 {
-    font-size:1.3rem;
+    font-size:1.4rem;
     font-weight:bold;
     color:#F2CF05;
     text-align:left;
@@ -69,7 +69,7 @@ nav a:hover{
 main{
     display:grid;
     grid-template-columns:1fr;
-    text-align:center;
+    text-align:left;
     height:auto;
     width:fit-content;
     margin:0 auto;
@@ -100,7 +100,7 @@ a {
 p {
     color:#262473;
     text-align:left;
-    font-size:.9rem;
+    font-size:1.1rem;
     line-height:1.3rem;
 }
 
