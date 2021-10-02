@@ -103,3 +103,11 @@ p {
     font-size:.9rem;
     line-height:1.3rem;
 }
+
+
+.color-scheme {
+    float:left;
+    width:90%;
+    height:auto;
+    box-shadow: 0 0 6px gray;
+}
