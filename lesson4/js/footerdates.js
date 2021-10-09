@@ -1,4 +1,11 @@
-const copyrightyear=document.querySelector("#copyrightyear");
-copyrightyear.textContent=new Date().getFullYear();
-const lastupdate=document.lastModified;
-document.getElementById("lastupdate").textContent=lastupdate;
+let d = new Date();
+document.getElementById("copyrightyear").textContent = d.getFullYear();
+
+const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+}
+
+document.getElementById("currentDate").textContent = d.toLocaleDateString('en-UK', options);

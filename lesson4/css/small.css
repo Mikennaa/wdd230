@@ -12,6 +12,17 @@ header, footer {
     font-weight:bold;
 }
 
+header {
+    display:flex;
+    justify-content: center;
+}
+
+header img{
+    max-width:130px;
+    max-height: auto;
+    margin-right:1.1em;
+}
+
 h1, h2, h3 {
     font-family: 'Lora', serif;
 }
@@ -65,6 +76,11 @@ nav a:hover{
     color:#034C8C
 }
 
+nav button {
+    display: none;
+    margin: 0.2rem 2%;
+    color:#F5863B;
+}
 
 main{
     display:grid;
@@ -124,20 +140,3 @@ text-align:left;
 font-family:'Poppins', sans-serif;
 }
 
-
-main section ul li {
-    text-align:left;
-    color:#262473;
-    padding:.6rem;
-    font-weight:normal;
-}
-
-.persona1{
-    padding:.6rem;
-    margin:.7rem;
-}
-
-.persona2{
-padding:.6rem;
-margin:.7rem;
-}
