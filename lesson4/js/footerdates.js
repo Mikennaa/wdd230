@@ -10,6 +10,7 @@ const options = {
 
 document.getElementById("currentDate").textContent = d.toLocaleDateString('en-UK', options);
 
-function toggleNav() {
+function toggleMenu() {
     document.getElementById("townnav").classList.toggle("hide");
 }
+
