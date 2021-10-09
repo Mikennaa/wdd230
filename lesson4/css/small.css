@@ -44,14 +44,10 @@ h3 {
     text-align:left;
 }
 
-.author-name {
-    color:white;
-    font-weight:bold;
-    text-align:center;
-}
-
 
 nav {
+    max-width: 1200px;
+    margin:0 auto;
     background-color:#6AAED9;
     text-align:center;
 }
@@ -60,7 +56,6 @@ nav ul{
     list-style-type:none;
     margin:0;
     padding:0;
-    overflow:hidden;
 }
 
 nav ul li a{
@@ -84,25 +79,10 @@ nav button {
 }
 
 main{
-    display:grid;
-    grid-template-columns:1fr;
-    text-align:left;
-    height:auto;
     width:fit-content;
     margin:0 auto;
     padding:.9rem;
-    object-fit:scale-down;
-    font-size: size 1.4rem;
-    line-height:.98rem;
     color:white;  
-
-}
-
-main section img{
-    width:25%;
-    height:auto;
-    box-shadow: 0 0 6px gray;
-    float:left;
 }
 
 main section {
@@ -120,24 +100,3 @@ p {
     font-size:1.1rem;
     line-height:1.3rem;
 }
-
-
-.color-scheme {
-    float:left;
-    width:90%;
-    height:auto;
-    box-shadow: 0 0 6px gray;
-}
-
-.header-font{
-text-align:left;
-font-family:'Lora', serif;
-font-weight:bold;
-}
-
-
-.paragraph-font {
-text-align:left;
-font-family:'Poppins', sans-serif;
-}
-
