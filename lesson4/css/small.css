@@ -23,6 +23,15 @@ header img{
     margin-right:1.1em;
 }
 
+footer {
+max-width:1150px;
+margin: 0 auto;
+text-align: center;
+
+
+}
+
+
 h1, h2, h3 {
     font-family: 'Lora', serif;
 }
