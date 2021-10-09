@@ -18,17 +18,20 @@ header {
 }
 
 header img{
-    max-width:130px;
+    max-width:130rem;
     max-height: auto;
     margin-right:1.1em;
+}
+
+.tagline {
+    display: block;
+    font-size:.9rem;
 }
 
 footer {
 max-width:1150px;
 margin: 0 auto;
 text-align: center;
-
-
 }
 
 
