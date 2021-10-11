@@ -15,3 +15,7 @@ nav button {
 nav ul li {
     flex: 1 1 100%;
 }
+
+.townnav li:first-child {
+    display: none;
+}
