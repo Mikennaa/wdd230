@@ -1,3 +1,11 @@
+const hambutton = document.querySelector('.ham');
+const mainnav = document.querySelector('.navigation')
+
+hambutton.addEventListener('click',()=> {mainnav.classList.toggle('responsive')}, false);
+
+// To solve the mid resizing issue with responsive class on
+window.onresize=()=> {if (window.innerWidth>760) mainnav.classList.remove('responsive')};
+
 let d = new Date();
 document.getElementById("copyrightyear").textContent = d.getFullYear();
 
@@ -8,16 +16,12 @@ const options = {
     year: 'numeric',
 }
 
-document.getElementById("currentDate").textContent = d.toLocaleDateString('en-UK', options);
+document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
 
 
-const hambutton = document.querySelector('.ham');
-const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
-// To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+
 
 /*** Programming Notes **************************************
   Arrow Functions - es6 syntactically compact alternative to a regular function expression
