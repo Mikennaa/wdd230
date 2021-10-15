@@ -1,26 +1,28 @@
-const input=document.querySelector('input');
-const button=document.querySelector('button');
-const list=document.querySelector('list');
+const list = document.querySelector('ul');
+      const input = document.querySelector('input');
+      const button = document.querySelector('button');
 
-button.addEventListener('click', function()) {
- let scriptreference= input.value;
- input.value="";
- if (scriptreference !="") {
+      button.addEventListener('click', function() {
+        let myItem = input.value;
+        input.value = '';
+        if (myItem !="") {
 
-const scripture=document.createElement('li');
-const text =document.createElement('span');
-const buttonList=document.createElement('button');
+        const listItem = document.createElement('li');
+        const listText = document.createElement('span');
+        const listBtn = document.createElement('button');
 
-scripture.appendChild(text);
-text.textContent=scriptreference;
-scripture.appendChild(buttonList)
-buttonList.textContent= "\u274C";
-list.appendChild(scripture);
-buttonList.onclick=function(e){
-    list.removeChild(scripture);
-}
+        listItem.appendChild(listText);
+        listText.textContent = myItem;
+        listItem.appendChild(listBtn);
+        listBtn.textContent = 'Delete';
+        list.appendChild(listItem);
 
-input.focus();}
-else {
-    window.alert("Reference field cannot be left blank, please enter a reference.")
-}}
+        listBtn.onclick = function(e) {
+          list.removeChild(listItem);
+        }
+        input.focus(); }
+        else {
+            window.alert("Source field cannot be blank, please enter a reference")
+        }
+      })
+
