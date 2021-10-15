@@ -39,21 +39,65 @@
 <main>
   <section class="maincontent">
   <h2>Welcome To The City of Preston, Idaho</h2>
-      <div class="heroimg">
-        <img src="" alt="City view of Preston,Idaho">
+      <div class="herodiv">
+        <img src="images/towncrop.jpg" alt="City view of Preston,Idaho" width="700" height="auto">
         <section class="summary">
           <h2>Weather Summary</h2>
-          
+          <div class="gridlayout">
+            <span class="suminfo">Currently:</span>
+            <span id="currently">Partly Cloudy</span>
+            <span class="suminfo">Temperature:</span>
+            <span id="temperature">60°F</span>
+            <span class="suminfo">Wind:</span>
+            <span id="windchill">10 mph</span>
+            <span class="suminfo">Humidity:</span>
+            <span id="humidity">55%</span>
+            <span class="suminfo">UV Index:</span>
+            <span id="uvindex">4 of 10</span>
+          </div>
         </section>
 
       </div>
       <div class="contentbox">5-Day Forecast</div>
+      <h2>5-Day Forecast</h2>
+<div class="forecast">
+	<div class="forecast-col">
+		<span class="col-head">Mon</span>
+		<img src="images/rainshowers.png" alt="rain showers" width="70" height="auto">
+		<span class="data">50°F</span>
+	</div>
+	<div class="forecast-col">
+		<span class="col-head">Tues</span>
+		<img src="images/snowshowers.png" alt="snow showers" width="70" height="auto" >
+		<span class="data">41°</span>
+	</div>
+	<div class="forecast-col">
+		<span class="col-head">Wed</span>
+		<img src="images/cloudy.png" alt="partly cloudy" width="70" height="auto">
+		<span class="data">51°</span>
+	</div>
+	<div class="forecast-col">
+		<span class="col-head">Thur</span>
+		<img src="images/sunny.png" alt="sunny" width="70" height="auto">
+		<span class="data">56°</span>
+	</div>
+	<div class="forecast-col">
+		<span class="col-head">Fri</span>
+		<img src="images/sunny.png" alt="sunny" width="70" height="auto">
+		<span class="data">60°</span>
+	</div>
+	
+</div>
+
+
+
       <div class="contentbox">Article</div>
       <div class="contentbox">Contact Information</div>
   </section>
 </main>
 
 <footer>
+  <Contact 
     &copy; <span id="copyrightyear">2021</span> | Naturally Weather | Attributions | Mikenna Atkinson
     <br> <span id="currentDate"></span>
 </footer>
