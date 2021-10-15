@@ -18,9 +18,10 @@ header {
 }
 
 header img{
-    width:85rem;
-    height: auto;
-    margin-right:1.1em;
+    width:auto;
+    height: 95px;
+    margin-right:10px;
+    margin-left:1em;
 }
 
 .tagline {
