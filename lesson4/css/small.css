@@ -18,8 +18,8 @@ header {
 }
 
 header img{
-    max-width:130rem;
-    max-height: auto;
+    width:85rem;
+    height: auto;
     margin-right:1.1em;
 }
 
