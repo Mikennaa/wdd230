@@ -27,8 +27,7 @@ main {
 	width: 95%;
 }
 
-input,
-button {
+input, button {
 	padding: 0.35rem;
 	margin-left: 1rem;
 	font-size: 1.1rem;
