@@ -57,7 +57,7 @@ h3 {
 
 
 nav {
-    max-width: 760px;
+    flex: 1 1 auto;
     margin:0 auto;
     background-color:#6AAED9;
     text-align:center;
