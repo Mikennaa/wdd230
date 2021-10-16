@@ -170,6 +170,7 @@ p {
 
 .herodiv {
     position: relative;
+    max-width:100%;
 }
 
 .gridlayout {
@@ -241,11 +242,13 @@ p {
 
 .contentboxes p {
     font-size:.9rem;
+    max-width:100%;
 }
 
 .tomatoes img {
     float:right;
     box-shadow:0 0 25px gray;
+    max-width:100%;
 }
 
 .contactinfo p {
