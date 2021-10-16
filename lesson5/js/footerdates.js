@@ -18,6 +18,13 @@ const options = {
 
 document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
 
+const fri=d.getDay();
+const banner=document.querySelector("aside");
+if (fri==5) {
+  banner.setAttribute("class", "psaturday");
+} else {
+  banner.setAttribute("class", "notfriday");
+}
 
 
 
