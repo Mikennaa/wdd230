@@ -259,3 +259,11 @@ p {
     border:5px solid white; 
 }
 
+.psaturday {
+    background-color:#F5863B;
+    color:white;
+    text-align:center;
+    padding:1em;
+    font-size:1.2rem;
+    font-style:italic;
+}
