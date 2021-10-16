@@ -255,6 +255,7 @@ p {
 }
 
 .map img {
-    float:right;  
+    float:right; 
+    border:5px solid white; 
 }
 
