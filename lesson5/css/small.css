@@ -267,3 +267,7 @@ p {
     font-size:1.2rem;
     font-style:italic;
 }
+
+.gridlayout #currentval {
+    color:#F5863B;
+}
