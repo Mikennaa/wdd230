@@ -8,26 +8,13 @@ nav button {
     display:none;
 }
 
-    nav ul {
+    nav ul.hide{
     display:flex;
+	margin:0 auto;
+	flex: 1 1 100%;
+	justify-content:space-evenly;
 }
 
-nav ul li {
-    flex: 1 1 100%;
+nav ul li a {
+    border:none;
 }
-
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
-}
-
