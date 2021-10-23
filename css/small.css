@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
     font-size: 18px;
     line-height: 1.5;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     height:100x;
 }
 
@@ -49,5 +51,5 @@ footer {
 }
 
 h1, h2, {
-    font-family:'Quicksand', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
