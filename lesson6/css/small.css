@@ -201,6 +201,13 @@ p {
     font-size:1.1rem;
 }
 
+.currentval {
+    color:#F5863B;
+}
+
+.temp {
+    color:#F5863B;
+}
 
 .forecast {
 	display: flex;

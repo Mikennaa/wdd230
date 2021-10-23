@@ -8,7 +8,7 @@ nav button {
     display:none;
 }
 
-    nav ul.hide{
+nav ul.hide{
     display:flex;
 	margin:0 auto;
 	flex: 1 1 100%;
@@ -18,3 +18,4 @@ nav button {
 nav ul li a {
     border:none;
 }
+
