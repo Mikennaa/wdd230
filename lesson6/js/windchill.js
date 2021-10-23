@@ -4,8 +4,8 @@ let windc;
 
 if (temp <= 50 && wind > 3) {
     windc = windChill(temp, wind);
+   }
    
-}
 else {
     windc = `N/A`;
 } 
