@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Naturally Weather Preston, Idaho</title>
         <meta name="description" content="Naturally Weather Preston, Idaho">
@@ -12,6 +13,7 @@
           <link rel="stylesheet" href="css/large.css">
           <script defer src="js/footerdates.js"></script>
           <script defer src="js/hamburger.js"></script>
+          <script defer src="js/windchill.js"></script>
           <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -46,23 +48,34 @@
     </nav>
 
 <main>
-  <section class="maincontent">
+  <div class="maincontent">
   <h2>Welcome To The City of Preston, Idaho</h2>
       <div class="herodiv">
-        <img class="prestontown" src="images/towncrop.jpg" alt="City view of Preston,Idaho">
+        <picture class="prestontown">
+        <source srcset="images/towncrop.jpg" media="(max-width: 503px)">
+        <source srcset="" media="(max-width:942px)">
+        <source srcset="" media="(max-width:943px)">
+        <img src="" alt="City view of Preston, Idaho">
+        </picture>
+        
         <section class="summary">
           <h2>Weather Summary</h2>
           <div class="gridlayout">
             <span class="suminfo">Currently:</span>
-            <span id="currentval">Partly Cloudy</span>
+            <span class="currentval">Partly Cloudy</span>
             <span class="suminfo">Temperature:</span>
-            <span id="currentval">60°F</span>
-            <span class="suminfo">Wind:</span>
-            <span id="currentval">10 mph</span>
+            <span class="currentval">60°F</span>
+            <span class="suminfo">Wind Chill:
+                <span class="windchill"></span></span>
+            <span class="currentval">10 mph</span>
+            <span class="currentval">Wind Speed:</span>
+            <span class="suminfo">
+                <span class="windspeed">7</span> mph</span>
             <span class="suminfo">Humidity:</span>
-            <span id="currentval">55%</span>
+            <span class="currentval">55%</span>
             <span class="suminfo">UV Index:</span>
-            <span id="currentval">4 of 10</span>
+            <span class="currentval">4 of 10</span>
+
           </div>
         </section>
       </div>
@@ -101,6 +114,8 @@
 <section class="contentboxes">
       <h2>Community News</h2>
 <div class="tomatoes">
+        <source srcset="images/tomatoes.jpg" media="(max-width:503px)">
+        <source srcset="images/tomatoes.jpg" media=(min-width: 504px)">"
       <img src="images/tomatoes.jpg" alt="A bowl full of tomatoes, it's harvest time" width="350" height="auto">
 </div>
       <p>
