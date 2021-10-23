@@ -129,17 +129,17 @@ p {
     font-size:1.3em; 
 }
 
-.mainnav {
+.primaryNav {
 	list-style: none;
 	padding: 0;
 }
-.mainnav li:first-child {
+.primaryNav li:first-child {
 	display: block;
 }
-.mainnav li {
+.primaryNav li {
 	display: none;
 }
-.mainnav a {
+.primaryNav a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -148,7 +148,7 @@ p {
 	font-weight: 590;
 	transition: 0.5s;
 }
-.mainnav a:hover {
+.primaryNav a:hover {
 	color: white;
 	background-color: #034C8C;
 }
@@ -262,11 +262,14 @@ p {
     border:5px solid white; 
 }
 
-.pfriday {
+.pancakefriday {
     background-color:#F5863B;
+    padding:1em;
+}
+
+.pancakefriday p {
     color:white;
     text-align:center;
-    padding:1em;
     font-size:1.2rem;
     font-style:italic;
 }

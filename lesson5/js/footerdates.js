@@ -10,18 +10,19 @@ const options = {
 
 document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
 
-function bannerCalc() {
+function bannerpopup() {
 
   const d=newDate();
   const today=d.getDay();
-  const pancake=document.querySelector(".pfriday");
+  const pancake=document.querySelector(".pancakefriday");
 
   if (today==5) {
-    pancake.style.display=block;
+    pancake.style.display='block';
   }
-else {
-  pancake.style.display='none';
-}
-}
-bannerCalc();
+
+  else {
+    pancake.style.display='none';
+  }
+  }
+  bannerpopup();
 
