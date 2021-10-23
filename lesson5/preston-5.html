@@ -11,17 +11,19 @@
           <link rel="stylesheet" href="css/medium.css">
           <link rel="stylesheet" href="css/large.css">
           <script defer src="js/footerdates.js"></script>
+          <script defer src="js/hamburger.js"></script>
           <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <aside class="psaturday">
-      Preston Pancakes In The Park! 
-      <br>Saturday 9am at the City Park Pavillion
-    </aside>
+    <div class="pfriday">
+      <p>Preston Pancakes In The Park! 
+      <br>Saturday 9am at the City Park Pavillion</p>
+      </div>
       <header>
-          <img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150">
+
+        <picture><img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150"></picture>
           <section>
           <h1>Naturally Weather</h1>
         <div class="tagline">Predicting Mothernature before the day begins</div>
@@ -29,10 +31,10 @@
       </header>
 
       <nav>
-            <ul class="navigation">
-              <li><a class="hammenu" href="#">Menu</a></li>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul class="mainnav"class="hide">
             <li><a href="index.html">Home</a></li>
-            <li><a href="preston-4.html">Preston</a></li>
+            <li class="activebutton"><a href="preston-4.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>

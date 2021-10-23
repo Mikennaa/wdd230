@@ -129,17 +129,17 @@ p {
     font-size:1.3em; 
 }
 
-.navigation {
+.mainnav {
 	list-style: none;
 	padding: 0;
 }
-.navigation li:first-child {
+.mainnav li:first-child {
 	display: block;
 }
-.navigation li {
+.mainnav li {
 	display: none;
 }
-.navigation a {
+.mainnav a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -148,7 +148,7 @@ p {
 	font-weight: 590;
 	transition: 0.5s;
 }
-.navigation a:hover {
+.mainnav a:hover {
 	color: white;
 	background-color: #034C8C;
 }
@@ -262,7 +262,7 @@ p {
     border:5px solid white; 
 }
 
-.psaturday {
+.pfriday {
     background-color:#F5863B;
     color:white;
     text-align:center;
