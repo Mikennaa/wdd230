@@ -129,17 +129,17 @@ p {
     font-size:1.3em; 
 }
 
-.primaryNav {
+.nav {
 	list-style: none;
 	padding: 0;
 }
-.primaryNav li:first-child {
+.nav li:first-child {
 	display: block;
 }
-.primaryNav li {
+.nav li {
 	display: none;
 }
-.primaryNav a {
+.nav a {
 	display: block;
 	padding: 0.75rem;
 	text-align: left;
@@ -148,7 +148,7 @@ p {
 	font-weight: 590;
 	transition: 0.5s;
 }
-.primaryNav a:hover {
+.nav a:hover {
 	color: white;
 	background-color: #034C8C;
 }
@@ -159,6 +159,7 @@ p {
 .responsive li {
 	display: block;
 }
+
 
 .summary h2 {
     font-size:1.2rem;
