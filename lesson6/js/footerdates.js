@@ -12,7 +12,7 @@ document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK',
 
 function bannerpopup() {
 
-  const d=newDate();
+  const d=new Date();
   const today=d.getDay();
   const pancake=document.querySelector(".pancakefriday");
 
