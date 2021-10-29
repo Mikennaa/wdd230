@@ -17,3 +17,8 @@ img {
     height:400px;
     padding:6px;
 }
+
+main .gallery {
+    display:flex;
+    align-items:center;
+}
