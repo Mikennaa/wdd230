@@ -45,7 +45,7 @@ h1 {
 h2 {
     font-size:1.6rem;
     font-weight:bold;
-    color:#F5863B;
+    color:#F2490C;
     text-align:left;
     font-weight:bold;
 }
@@ -170,7 +170,7 @@ p {
 .summary h2 {
     font-size:1.2rem;
     font-weight:bold;
-    color:#F5863B;
+    color:#F2490C;
     text-align:left;
     text-decoration:underline;      
 }
@@ -196,7 +196,7 @@ p {
 }
 
 .suminfo {
-    color:#F5863B;
+    color:#F2490C;
     margin-right:.5rem;
     font-size:1.1rem;
 }
@@ -282,5 +282,5 @@ p {
 }
 
 .gridlayout #currentval {
-    color:#F5863B;
+    color:#F2490C;
 }
