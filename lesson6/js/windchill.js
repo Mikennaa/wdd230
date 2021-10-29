@@ -17,4 +17,4 @@ function windChill(temp, wind){
         return f.toFixed(0);
     }
 
-document.querySelector('.windchill').innerHTML = `${wchill}°F`;
+document.querySelector('.windchill').innerHTML = `${windc}°F`;
