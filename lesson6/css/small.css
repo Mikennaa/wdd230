@@ -3,18 +3,6 @@ body {
     font-size:1.0rem;
 }
 
-.pancakefriday {
-    background-color:#F5863B;
-    padding:1em;
-}
-
-.pancakefriday p {
-    color:white;
-    text-align:center;
-    font-size:1.2rem;
-    font-style:italic;
-
-
 header, footer {
     background-color:#262473;
     color:white;
@@ -38,9 +26,10 @@ header img{
     display: block;
     font-size:.9rem;
 }
+
 nav button {
     margin: .2rem 2%;
-	padding: .45rem;
+    padding: .45rem;
     background-color: transparent;
     border: none;
     font-size: 1.5rem;
@@ -48,20 +37,21 @@ nav button {
 }
 
 nav {
-	background-color: #6AAED9;
+    background-color: #6AAED9;
 }
 
 nav ul {
-	list-style-type: none;
-	margin: .5rem;
-	padding: 0;
+    list-style-type: none;
+    margin: .5rem;
+    padding: 0;
+    text-align:center;
 }
 
 nav ul li a {
-	display: block;
-	color: #262473;
-	padding: 0.7rem 2%;
-	text-decoration: none;
+    display: block;
+    color: #262473;
+    padding: 0.7rem 2%;
+    text-decoration: none;
     border-top: 1px solid rgba(0,0,0,.3)
 }
 
@@ -71,7 +61,7 @@ nav ul li.activebutton a {
 }
 
 nav ul li a:hover {
-	background-color: white;
+    background-color: white;
 }
 
 nav ul.hide {
@@ -82,9 +72,7 @@ nav ul.hide {
     content: "";
     display: table;
     clear: both;
-
-
-
+}
 
 h1, h2, h3 {
     font-family: 'Lora', serif;
@@ -97,7 +85,7 @@ h1 {
 h2 {
     font-size:1.6rem;
     font-weight:bold;
-    color:#F5863B;
+    color:#F2490C;
     text-align:left;
     font-weight:bold;
 }
@@ -106,8 +94,6 @@ h3 {
     color:#262473;
     text-align:left;
 }
-
-
 
 
 main{
@@ -129,7 +115,7 @@ main section {
 
 a {
     text-decoration:none;
-    color:white;
+	color:white;
 }
 
 p {
@@ -160,19 +146,14 @@ p {
     font-size:1.3em; 
 }
 
-
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
-  <ul class="navigation responsive">
-*/
 .responsive li {
-	display: block;
+    display: block;
 }
-
 
 .summary h2 {
     font-size:1.2rem;
     font-weight:bold;
-    color:#F5863B;
+    color:#F2490C;
     text-align:left;
     text-decoration:underline;      
 }
@@ -198,62 +179,63 @@ p {
 }
 
 .suminfo {
-    color:#F5863B;
+    color:#F2490C;
     margin-right:.5rem;
     font-size:1.1rem;
 }
 
 .currentval {
-    color:#F5863B;
+    color:#F2490C;
 }
 
 .temp {
-    color:#F5863B;
+    color:#F2490C;
 }
 
+
 .forecast {
-	display: flex;
-	flex-flow: row wrap;
+    display: flex;
+    flex-flow: row wrap;
 } /* let us combine row and wrap with flow */
 
 .forecast-col {
-	flex: 1 1 auto;
-	background-color: white;
+    flex: 1 1 auto;
+    background-color: white;
 }
 .forecast-col, .column-col, .grid-col {
-	border-bottom: 1px solid #333;
-	border-left: 1px solid #333;
-	text-align: center;
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    text-align: center;
 }
 .forecast-col:hover, td:hover, .column-col:hover, .grid-col:hover {
-	opacity: 0.75;
-	background-color: #034C8C;
-	color: white;
+    opacity: 0.75;
+    background-color: #034C8C;
+    color: white;
 }
 .forecast, .column, .grid {
-	border-right: 1px solid #333;
+    border-right: 1px solid #333;
 }
 
 .col-head {
-	display: block;
-	padding: 5px;
-	border-bottom: 1px solid #034C8C;
-	text-align: center;
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #034C8C;
+    text-align: center;
 }
   
 .data {
-	display: block;
-	padding: 0 5px 5px;
-	font-size: 0.8rem;
-	text-align: center;
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
     color:#034C8C;
 }
 
 .col-head,th {
-	font-weight: 500;
-	font-size: 1rem;
-	background-color: #034C8C;
-	color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #034C8C;
+    color: white;
 }
 
 .contentboxes p {
@@ -278,17 +260,24 @@ p {
     border:5px solid white; 
 }
 
+.pancakefriday {
+    background-color:#F5863B;
+    padding:1em;
+}
 
+.pancakefriday p {
+    color:white;
+    text-align:center;
+    font-size:1.2rem;
+    font-style:italic;  
 }
 
 .gridlayout #currentval {
-    color:#F5863B;
+    color:#F2490C;
 }
 
-
 footer {
-    max-width:100%;
-    margin: 0 auto;
-    text-align: center;
-    }
-    
+max-width:100%;
+margin: 0 auto;
+text-align: center;
+}
