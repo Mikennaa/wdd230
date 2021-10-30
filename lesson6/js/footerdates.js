@@ -22,3 +22,16 @@ const pancake=document.querySelector(".pancakefriday");
   }
   }
   
+
+  const lastView = localStorage.getItem('lastView') || today; 
+  const displayDate = '';
+  const millisecondsToDays = 8640000;
+  if (lastView == today) {
+      document.querySelector('#visits').textContent = `Last view date: Congrats! It's your first time viiewing!`;
+  }
+  else {
+      displayDate = (lastVisit - today / millisecondsToDays).toFixed(0);
+      document.querySelector('#lastView').textContent =  `Last visit: ${displayDate}`;
+  }
+   localStorage.setItem('lastView', today); 
+      
