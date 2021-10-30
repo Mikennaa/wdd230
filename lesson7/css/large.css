@@ -11,3 +11,7 @@
         flex:1 1 100%;
     }
 }
+
+.gallery li:hover {
+    box-shadow: 0 5px 50px #737373;
+}
