@@ -2,39 +2,145 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Naturally Weather Gallery</title>
     <meta name="description" content="Naturally Weather Photo Gallery">
-    <link rel="stylesheet" href="lazyload.css">
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="lesson6/css/small.css">
+    <link rel="stylesheet" href="lesson6/css/medium.css">
+    <link rel="stylesheet" href="lesson6/css/large.css">
+    <link rel="stylesheet" href="lesson6/css/normalize.css">
+    <script defer src="lesson6/js/footerdates.js"></script>
+    <script defer src="lesson6/js/hamburger.js"></script>
+    <script defer src="lesson6/js/fonts.js"></script>
     <script defer src="lazyload.js"></script>
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">    
 </head>
 
 <body>
 
-  <main>
-      <div class= "gallery">
-     <h1>Weather Gallery</h1>
-     <picture>
-       <img src="images/placeholderimg.jpg" data-src="images/succulents1.jpg" alt="individually potted succulent plants">
-     </picture>
-     
-     <picture>
-      <img src="images/placeholderimg.jpg" data-src="images/succulents2.jpg" alt="beautiful succulent plant">
-    </picture>
+    <div class="pancakefriday">
+      <p>🥞Preston Pancakes In The Park!🥞 
+      <br>Saturday 9am at the City Park Pavillion</p>
+      </div>
+      
+      <header>
+        <picture><img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150"></picture>
+         
+        <section class="headings">
+          <h1>Naturally Weather</h1>
+        <div class="tagline">Predicting Mothernature before the day begins</div>
+      </section>
+      </header> 
+      
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="#">Home</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson6/preston-6.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="#">Storm Center</a></li>
+          <li class="activebutton"><a href="gallery-7.html">Gallery</a></li>
+        </ul>
+      </nav>
     
-    <picture>
-      <img src="images/placeholderimg.jpg" data-src="images/succulents3.jpg" alt="ground covered in dark green succulents">
-    </picture>
 
-    <picture>
-      <img src="images/placeholderimg.jpg" data-src="images/succulent4.jpg" alt="potted succulents">
-    </picture>
+  <main>
+    <h2>Weather Gallery</h2>
+      <div class= "gallery">
+     <ul>
+       <li>
+         <figure class="gallerygrid">
+           <img class="galleryimg" src="" data-src="" alt=""</img>
+           <figcaption>
 
-    <picture>
-      <img src="images/placeholderimg.jpg" data-src="images/succulents5.jpg" alt="potted succulents display">
-    </picture>
+           </figcaption>
+         </figure>
+       </li>
+
+       <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+
+      <li>
+        <figure class="gallerygrid">
+          <img class="galleryimg" src="" data-src="" alt=""</img>
+          <figcaption>
+
+          </figcaption>
+        </figure>
+      </li>
+     </ul>
+     </div>
+     </main>
+     <footer>
+      &copy; <span id="copyrightyear">2021</span> | Naturally Weather | Attributions | Mikenna Atkinson
+      <br> <span id="currentDate"></span>
+      <span id="visits"></span>
+     </footer>
+     
 </div>
   </main>
   </body>
