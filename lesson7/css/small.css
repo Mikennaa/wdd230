@@ -86,6 +86,10 @@ nav ul.hide {
     clear: both;
 }
 
+.responsive li {
+    display: block;
+}
+
 h1, h2, h3 {
     font-family: 'Lora', serif;
 }
@@ -132,9 +136,23 @@ p {
     line-height:1.3rem;
 }
  
-.responsive li {
-    display: block;
+.gallery ul {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:1rem;
+    padding:0;
 }
+
+.gallerygrid {
+    position:relative;
+    margin:0;
+    overflow:hidden;
+}
+
+.gallerygrid img {
+    width:100%;
+}
+
 
 
 
