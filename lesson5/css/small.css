@@ -190,6 +190,14 @@ p {
     font-size:1.1rem;
 }
 
+.currentval {
+    color:#F2490C;
+}
+
+.temp {
+    color:#F2490C;
+}
+
 
 .forecast {
 	display: flex;
