@@ -58,6 +58,8 @@ nav ul li a {
 nav ul li.activebutton a {
     background-color: white;
     color: #F2490C;
+    font-weight:bold;
+    font-size:1.3rem;
 }
 
 nav ul li a:hover {
