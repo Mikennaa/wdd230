@@ -177,7 +177,6 @@ p {
 
 .summary {
     position:absolute;
-    background:radial-gradient(white);
     opacity:.9;
     box-shadow: 0 0 25px gray;
     padding:.9rem;
