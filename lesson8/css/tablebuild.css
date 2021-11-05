@@ -1,4 +1,50 @@
  html {
     font-family: 'Ubuntu', sans-serif;
  }
+table {
+    box-shadow:5px 5px 5px 5px #628ca6;
+    text-align:center;
+    border-collapse: collapse;
+    font-size:1.0em;
+    margin:2.5rem auto;
+}
 
+tr:first-child th {
+    background-color:#7fb9c2;
+    font-weight:bold;
+    font-size:1.6em;
+    color:black;
+}
+
+th, td {
+    border:1px solid lightgray;
+    padding:7px 15px;
+}
+
+td {
+    color:black;
+}
+
+tbody tr:nth-child(odd) td {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #e7f0ed;
+}
+
+#salesGoal {
+    background-color:#628ca6;
+    color:white;
+}
+
+tbody, th {
+    background-color: #628ca6;
+    color:white;
+}
+
+
+tfoot {
+    background-color:#7fb9c2;
+    font: size 0.1em;
+}
