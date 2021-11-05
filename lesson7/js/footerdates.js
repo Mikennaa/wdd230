@@ -11,27 +11,14 @@ const options = {
 document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
 
   
-const pancake=document.querySelector(".pancakefriday");
-
-  if (d.getDay==5) {
-    pancake.style.display='block';
-  }
-
-  else {
-    pancake.style.display='none';
-  }
-  }
-  
-
-  const lastView = localStorage.getItem('lastView') || today; 
-  const displayDate = '';
-  const millisecondsToDays = 8640000;
-  if (lastView == today) {
-      document.querySelector('#visits').textContent = `Last view date: Congrats! It's your first time viiewing!`;
+  const lastVisit = localStorage.getItem('lastVisit') || today; 
+  const millisecondsToDays = 86400000;
+  if (lastVisit == today) {
+      document.querySelector('#visits').textContent = `Last view: Congrats! It's your first time viewing!`;
   }
   else {
       displayDate = (lastVisit - today / millisecondsToDays).toFixed(0);
-      document.querySelector('#lastView').textContent =  `Last visit: ${displayDate}`;
+      document.querySelector('#visits').textContent = `Last view: ${displayDate}`;
   }
-   localStorage.setItem('lastView', today); 
+   localStorage.setItem('lastVisit', today); 
       
