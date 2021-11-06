@@ -96,12 +96,12 @@ h2 {
     font-weight:bold;
 }
 
-h3 {
+h3,h4 {
     color:#262473;
     text-align:left;
 }
 
-
+}
 main{
     margin:0 auto;
     padding:.9rem;
@@ -130,4 +130,8 @@ footer {
 max-width:100%;
 margin: 0 auto;
 text-align: center;
+}
+
+.thankyou {
+    padding:5rem;
 }
