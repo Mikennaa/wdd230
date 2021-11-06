@@ -103,11 +103,6 @@ h3, h4 {
     font-size:2.0rem;
 }
 
-h5 {
-    color:#262473;
-    font-size:1.2rem;
-    margin:0;
-}
 
 main {
     margin:0 auto;
@@ -138,4 +133,16 @@ line-height:1.2rem;
     padding:5rem;
 }
 
+.thankyou h2 {
+    font-size:1.6rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:left;
+    font-weight:bold;
+}
 
+.thankyou h5 {
+    color:#262473;
+    font-size:1.2rem;
+    margin:0;
+}
