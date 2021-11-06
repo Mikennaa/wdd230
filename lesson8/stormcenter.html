@@ -42,6 +42,7 @@
     
 
 <main class="stormCenter">
+
     <h2>Report A Storm</h2>
     <form method="get" action="thanks.html">
         <div class="stormform">
@@ -53,10 +54,10 @@
                 <label class="top">Zip Code* <input type="number" name="zcode" required></label>
             </fieldset>
             <fieldset>
-                <legend>Storm Information</legend>
+                <legend><h3>Storm Information</h3></legend>
                 <label class="top">Storm Date <input type="date" name="stormdate" required></label>
-                <label class="top">Storm Type <input list="storm-type" name="stormtype" required>
-                <datalist id="stormtype">
+                <label class="top">Storm Type <input list="storm-type" name="storm-type" required/>
+                <datalist id="storm-type">
                     <option value="Flash Flood"></option>
                     <option value="Hail"></option>
                     <option value="Hurricane"></option>
@@ -65,11 +66,10 @@
                     <option value="Tornado"></option>
                 </datalist></label>
             
-            <div>Storm Severity</div>
-                <label class="stormrange" for="stormSeverity">Rating: &nbsp;&nbsp;&nbsp;
-                    <input type="range" id="rating" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
-                    <span id="ratingvalue">5</span> 
-                <datalist id="tickmarks">
+            <div class="scale">Storm Severity Rating</div>
+            <label class="scale" for="stormSeverity"> &nbsp;&nbsp;<input type="range" name="stormSeverity" id="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks"
+              oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"/>&nbsp;&nbsp; <span id="ratingvalue">5</span>
+            <datalist id="tickmarks">
                     <option value="0">
                     <option value="1">
                     <option value="2">
@@ -92,12 +92,12 @@
                     </select>
                     </label>
 
-                <div>Are you in danger?</div>
-                <label class="sbs"><input type="radio" name="danger" value="yes">Yes</label>
-                <label class="sbs"><input type="radio" name="danger" value="maybe">Maybe</label>
-                <label class="sbs"><input type="radio" name="danger" value="no">No</label>
-                <label for="addInfo" class="top">Additional Information <textarea name="addInfo" id="addinfo" cols="50" rows="10"></textarea></label>
-                </fieldset></div>
+                <div class="sbs">Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                <label for="addInfo" class="top">Additional Information<textarea name="addInfo" id="addInfo" cols="45" rows="10"></textarea></label>
+                </fieldset></div><br><br>
 
                 <div class="sbutton">
                 <input type="submit" value="Submit" class="submitbutton"></div>
