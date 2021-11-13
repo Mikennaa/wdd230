@@ -33,11 +33,6 @@ div.towns section:nth-child(odd) div {
     grid-column:1;
 }
 
-div.towns section;nth-child(odd) img {
-    grid-column:1;
-    grid-row:2;
-}
-
 div.towns img {
     display:flex;
     margin:15px;
