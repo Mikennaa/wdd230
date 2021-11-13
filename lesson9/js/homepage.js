@@ -18,8 +18,6 @@ const pancake=document.querySelector(".pancakefriday");
   else {
     pancake.style.display='none';
   }
-  }
-  
 
   const lastVisit = localStorage.getItem('lastVisit') || today; 
   const millisecondsToDays = 86400000;
