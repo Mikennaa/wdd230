@@ -128,10 +128,18 @@ p {
     line-height:1.1rem;
 }
  
-.homeHeroimg {
+.homeHero img {
     position:relative;
     width:100%;
     height:auto;
+}
+
+.homeArticle h3 {
+    font-size:1.4rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:left;
+    font-weight:bold; 
 }
 
 .contactinfo {
