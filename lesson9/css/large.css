@@ -12,6 +12,39 @@
     }
 }
 
+div.towns {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-gap:5px;
+    align-items:center;
+    max-width:1200px;
+}
+
+div.towns h4 {
+    margin:0;
+}
+
+div.towns section {
+    grid-template-columns:1fr;
+    max-width:100%;
+}
+
+div.towns section:nth-child(odd) div {
+    grid-column:1;
+}
+
+div.towns section;nth-child(odd) img {
+    grid-column:1;
+    grid-row:2;
+}
+
+div.towns img {
+    display:flex;
+    margin:15px;
+    padding:1rem;
+
+}
+
 .prestonMap {
     width:30%;
     height:auto;
