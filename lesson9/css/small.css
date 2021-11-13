@@ -51,7 +51,7 @@ nav ul li a {
     display: block;
     color: #262473;
     font-size:1.2rem;
-    padding: 0.7rem 2%;
+    padding: 0.2rem 2%;
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,.3)
 }
@@ -61,6 +61,7 @@ nav ul li.activebutton a {
     color: #F2490C;
     font-weight:bold;
     font-size:1.2rem;
+    padding:1rem;
 }
 
 nav ul li a:hover {
@@ -127,6 +128,11 @@ p {
     line-height:1.1rem;
 }
  
+.homeHeroimg {
+    position:relative;
+    width:100%;
+    height:auto;
+}
 
 .contactinfo {
     background-color:#6AAED9;
