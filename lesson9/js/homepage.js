@@ -10,7 +10,17 @@ const options = {
 
 document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
 
+
+const pancake=document.querySelector(".pancakefriday");
+  if (d.getDay==5) {
+    pancake.style.display='block';
+  }
+  else {
+    pancake.style.display='none';
+  }
+  }
   
+
   const lastVisit = localStorage.getItem('lastVisit') || today; 
   const millisecondsToDays = 86400000;
   if (lastVisit == today) {

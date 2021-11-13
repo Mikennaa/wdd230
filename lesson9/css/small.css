@@ -97,6 +97,18 @@ h2 {
     font-weight:bold;
 }
 
+.pancakefriday {
+    background-color:#F5863B;
+    padding:1em;
+}
+
+.pancakefriday p {
+    color:white;
+    text-align:center;
+    font-size:1.2rem;
+    font-style:italic;  
+}
+
 main {
     margin:0 auto;
     padding:1.0rem;
@@ -131,8 +143,10 @@ p {
 }
 
 .prestonMap {
-    float:right;
+    display:none;
     border:5px solid white; 
+    width:60%;
+    height:auto;
 }
 
 .footerinfo {
