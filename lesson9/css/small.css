@@ -115,6 +115,30 @@ p {
     line-height:1.1rem;
 }
  
+
+.contactinfo {
+    background-color:#6AAED9;
+    padding:1.5rem;
+}
+
+.contactinfo h2 {
+    color:#262473;
+}
+
+.contactinfo p {
+    color:white;
+    font-size:.9rem;
+}
+
+.prestonMap {
+    float:right;
+    border:5px solid white; 
+}
+
+.footerinfo {
+    text-align:center;
+}
+
 footer {
 max-width:100%;
 margin: 0 auto;
