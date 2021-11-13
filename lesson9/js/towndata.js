@@ -10,30 +10,30 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const towns = jsonObject['towns'];
-        const area = towns.filter((towns) => towns.name === 'Preston' || towns.name === 'Fish Haven' || towns.name ===  'Soda Springs');
-        area.forEach(area => {
+        const naturalweather = towns.filter((towns) => towns.name === 'Preston' || towns.name === 'Fish Haven' || towns.name ===  'Soda Springs');
+        naturalweather.forEach(naturalweather => {
             let towninfo = document.createElement('section');
             let bioinfo = document.createElement('div');
-            let townName = document.createElement('h2');
-            let motto = document.createElement('motto');
+            let h3 = document.createElement('h3');
+            let h4 = document.createElement('h4');
             let founded = document.createElement('p');
             let pop = document.createElement('p');
             let rain = document.createElement('p');
             let image = document.createElement('img');
 
             towninfo.innerHTML = `<span class="towninfogrid></span>`;
-            townName.innerHTML = `<span class="info">${area.name}</span>`;
-            motto.innerHTML= `<span class="info">${area.motto}</span>`;
-            founded.innerHTML= `<span class="info">Year Founded: ${area.yearFounded}</span>`;
-            pop.innerHTML= `<span class="info">Population: ${area.currentPopulation}</span>`;
-            rain.innerHTML= `<span class="info">Annual Rain Fall: ${area.averageRainfall}</span>`;
-            image.setAttribute('src', `images/${area.photo}`);
-            image.setAttribute('alt', `${area.name}`);
+            h3.innerHTML = `<span class="info">${naturalweather.name}</span>`;
+            h4.innerHTML= `<span class="info">${naturalweather.motto}</span>`;
+            founded.innerHTML= `<span class="info">Year Founded: ${naturalweather.yearFounded}</span>`;
+            pop.innerHTML= `<span class="info">Population: ${naturalweather.currentPopulation}</span>`;
+            rain.innerHTML= `<span class="info">Annual Rain Fall: ${naturalweather.averageRainfall}</span>`;
+            image.setAttribute('src', `images/${naturalweather.photo}`);
+            image.setAttribute('alt', `${naturalweather.name}`);
             
 
-            towninfo.appendChild(section);
-            bioinfo.appendChild(townName);
-            bioinfo.appendChild(motto);
+            towninfo.appendChild(bioinfo);
+            bioinfo.appendChild(h3);
+            bioinfo.appendChild(h4);
             bioinfo.appendChild(founded);
             bioinfo.appendChild(pop);
             bioinfo.appendChild(rain);
