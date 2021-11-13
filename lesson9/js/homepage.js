@@ -26,3 +26,4 @@ document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK',
 function toggleMenu() {
     document.getElementById("primaryNav").classList.toggle("hide");
 }
+
