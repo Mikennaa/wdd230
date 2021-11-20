@@ -20,7 +20,6 @@ const pancake=document.querySelector(".pancakefriday");
   else {
     pancake.style.display='none';
   }
-  }
   
 
   const lastView = localStorage.getItem('lastView') || today; 
