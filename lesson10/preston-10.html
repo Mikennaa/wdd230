@@ -13,6 +13,7 @@
           <link rel="stylesheet" href="css/large.css">
           <script defer src="js/dates.js"></script>
           <script defer src="js/hamburger.js"></script>
+          <script defer src="js/openweather.js"></script>
           <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -20,9 +21,9 @@
   <body>
 
     <div class="pancakefriday">
-        <p>🥞Preston Pancakes In The Park!🥞 
-        <br>Saturday 9am at the City Park Pavillion</p>
-        </div>
+      <p>🥞Preston Pancakes In The Park!🥞 
+      <br>Saturday 9am at the City Park Pavillion</p>
+      </div>
       
       <header>
         <picture><img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150"></picture>
@@ -37,8 +38,8 @@
       <nav class="clearfix">
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="primaryNav" class="hide">
-          <li><a href="#">Home</a></li>
-          <li class="activebutton"><a href="preston-4">Preston</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson9/home.html">Home</a></li>
+          <li class="activebutton"><a href="">Preston</a></li>
           <li><a href="#">Soda Springs</a></li>
           <li><a href="#">Fish Haven</a></li>
           <li><a href="#">Storm Center</a></li>
@@ -51,9 +52,9 @@
   <h2>Welcome To The City of Preston, Idaho</h2>
       <div class="herodiv">
         <picture class="prestontown">  
-        <source srcset="images/herosmall.jpg" media="(max-width:320px)">
-        <source srcset="images/heromedium.jpg" media="(max-width:760px)">
-        <source srcset="images/herolarge.jpg" media="(min-width:880px)">
+        <source srcset="images/herosmall.jpg" media="(max-width:399px)">
+        <source srcset="images/heromedium.jpg" media="(max-width:799px)">
+        <source srcset="images/herolarge.jpg" media="(min-width:899px)">
         <img src="images/originalhero.jpeg" alt="City view of Preston, Idaho" width="1100" height="500">
         </picture>
         
@@ -62,18 +63,21 @@
           <h2>Weather Summary</h2>
           <div class="gridlayout">
             <span class="suminfo">Currently:</span>
-            <span class="currentval" id="condition"></span>
+            <span class="currentval">Partly Cloudy</span>
             <span class="suminfo">Temperature:</span>
-                <span class="currentval"><span id="temp"></span>°F</span>
+                <span class="temp">60°F</span>
             <span class="suminfo">Wind Chill:</span>
-              <span class="currentval"></span>
-                <span class="currentval"><span id="wind-chill"></span></span>
+              <span class="currentval">
+                <span class="windchill"></span></span>
             <span class="suminfo">Wind Speed:</span>
-            <span class="currentval"></span>
-                <span class="windspeed"><span id="wind-speed"></span> mph</span>
+            <span class="currentval">
+                <span class="windspeed">3</span> mph</span>
             <span class="suminfo">Humidity:</span>
-            <span class="currentval"><span id="humidity"> %</span></span>
-            </div>
+            <span class="currentval">55%</span>
+            <span class="suminfo">UV Index:</span>
+            <span class="currentval">4 of 10</span>
+
+          </div>
         </section>
       </div>
   </div>
