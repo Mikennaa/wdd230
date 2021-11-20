@@ -21,7 +21,6 @@ const pancake=document.querySelector(".pancakefriday");
     pancake.style.display='none';
   }
   
-
   const lastView = localStorage.getItem('lastView') || today; 
   const displayDate = '';
   const millisecondsToDays = 8640000;
@@ -32,5 +31,4 @@ const pancake=document.querySelector(".pancakefriday");
       displayDate = (lastVisit - today / millisecondsToDays).toFixed(0);
       document.querySelector('#lastView').textContent =  `Last visit: ${displayDate}`;
   }
-   localStorage.setItem('lastView', today); 
-      
+   localStorage.setItem('lastView', today);

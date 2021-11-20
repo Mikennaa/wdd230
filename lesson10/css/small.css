@@ -32,8 +32,8 @@ nav button {
     padding: .45rem;
     background-color: transparent;
     border: none;
-    font-size: 1.5rem;
     color: #262473;
+    font-size:1.1rem;
 }
 
 nav {
@@ -50,7 +50,8 @@ nav ul {
 nav ul li a {
     display: block;
     color: #262473;
-    padding: 0.7rem 2%;
+    font-size:1.2rem;
+    padding: 0.2rem 2%;
     text-decoration: none;
     border-top: 1px solid rgba(0,0,0,.3)
 }
@@ -59,7 +60,8 @@ nav ul li.activebutton a {
     background-color: white;
     color: #F2490C;
     font-weight:bold;
-    font-size:1.3rem;
+    font-size:1.2rem;
+    padding:1rem;
 }
 
 nav ul li a:hover {
@@ -111,8 +113,12 @@ main section {
 
 .prestontown {
     position:relative;
+}
+
+.prestontown img {
     width:100%;
     height:auto;
+    margin-right:1rem;
 }
 
 a {
