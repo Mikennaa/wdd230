@@ -14,8 +14,4 @@ nav ul.hide{
 	flex: 1 1 100%;
 	justify-content:space-evenly;
 }
-
-nav ul li a {
-    border:none;
-}
 }
