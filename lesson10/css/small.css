@@ -105,8 +105,7 @@ h3 {
 main{
     width:100%;
     margin:0 auto;
-    padding:.9rem;
-    color:white;  
+    padding:.9rem;  
 }
 
 main section {
@@ -180,7 +179,7 @@ p {
 
 .summary {
     position:absolute;
-    background:radial-gradient(white);
+    background:white;
     opacity:.9;
     box-shadow: 0 0 25px gray;
     padding:.9rem;
@@ -192,16 +191,12 @@ p {
     color:#F2490C;
     margin-right:.5rem;
     font-size:1.1rem;
+    text-align:left;
 }
 
 .currentval {
     color:#F2490C;
 }
-
-.temp {
-    color:#F2490C;
-}
-
 
 .forecast {
     display: flex;

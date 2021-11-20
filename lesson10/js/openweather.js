@@ -5,66 +5,53 @@ fetch(apiURL)
     .then((jsObject) => {
         console.log(jsObject);
         document.getElementById('condition').textContent = jsObject.weather[0].description;
-        document.getElementById('temp').textContent = jsObject.main.temp.toFixed(0);
+        document.getElementById('current-temp').textContent = jsObject.main.temp.toFixed(0);
         document.getElementById('humidity').textContent = jsObject.main.humidity;
-        document.getElementById('wspeed').textContent = jsObject.wspeed.toFixed(0);
+        document.getElementById('wind-speed').textContent = jsObject.wind.speed.toFixed(0);
         
-        const temp = parseFloat(document.querySelector('#temp').textContent);
-        const wind = parseFloat(document.querySelector('#wspeed').textContent);
-        let windChill;
+        const temp = parseFloat(document.querySelector('#current-temp').textContent);
+        const wind = parseFloat(document.querySelector('#wind-speed').textContent);
+        let wchill;
 
         if (temp <= 50 && wind > 3) {
-        windChill = wchill(temp, wind);
+        wchill = windChill(temp, wind);
    
         }
         else {
-         windChill = `N/A`;
+         wchill = `N/A`;
         } 
 
-        function wChill(temp, wind){
+        function windChill(temp, wind){
         let f = 35.74 + (temp * 0.6215) 
         - (35.75 * Math.pow(wind, 0.16)) 
         + (0.4275 * temp * Math.pow(wind, 0.16));
         return f.toFixed(0);
         }
 
-        document.querySelector('.wChill').innerHTML = `${windChill}°F`;
+        document.querySelector('.windchill').innerHTML = `${wchill}°F`;
         
     });
 
-  const weathercastURL= "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=47c763fdda26aba1774c1074e74ad65c&units=imperial"
-  fetch(weathercastURL)
+  const foreURL= "https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=47c763fdda26aba1774c1074e74ad65c&units=imperial"
+  fetch(foreURL)
     .then((response) => response.json())
-    .then((jsfObject) => {
-      const list = jsfObject["list"];
-      const fiveDays = list.filter((list) => list.dt_txt.includes("18:00:00"));
-      fiveDays.forEach((fiveDays) => {
-        let castInfo = document.createElement("div");
-        let castDay = document.createElement("div");
-        let castDiv = document.createElement("div");
-        let imgIcon = document.createElement("img");
-        let castTemp = document.createElement("div");
-        let span = document.createElement("span");
-        let foreDate = new Date(fiveDays.dt_txt);
-        let dayName = new Date(foreDate).toLocaleString("en-us", {
-          weekday: "short",
+    .then((jsObject) => {
+        console.log(jsObject);
+        const hour = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+        console.log(time);
+        const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+        let day = 0;
+        hour.forEach(forecast => {
+            let thedate = new Date(forecast.dt_txt);
+            const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
+            const desc = forecast.weather[0].description;
+            document.querySelector(`#wday${day + 1}`).textContent = weekdays[thedate.getDay()];
+            document.querySelector(`#temp${day + 1}`).textContent = forecast.main.temp.toFixed(0) + "°F";
+            document.querySelector(`#icon${day+1}`).setAttribute('src', imagesrc);
+            document.querySelector(`#icon${day+1}`).setAttribute('alt', desc);
+            day++;
+        
+        
         });
-  
-        castDay.innerHTML = `${dayName}`;
-        castTemp.innerHTML = `${fiveDays.main.temp.toFixed(0)}`;
-        span.innerHTML = `°F`;
-        castDay.className = "days";
-        castDiv.className = "daysweather";
-        imgIcon.setAttribute(
-          "src",
-          `https://openweathermap.org/img/w/${fiveDays.weather[0].icon}.png`
-        );
-        imgIcon.setAttribute("alt", `${fiveDays.weather[0].disc}`);
-        castInfo.appendChild(castDay);
-        castInfo.appendChild(castDiv);
-        castDiv.appendChild(imgIcon);
-        castDiv.appendChild(castTemp);
-        castTemp.appendChild(span);
-        document.querySelector("div.forecast").appendChild(castInfo);
-      });
     });
