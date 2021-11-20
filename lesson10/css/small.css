@@ -45,6 +45,7 @@ nav ul {
     margin: .5rem;
     padding: 0;
     text-align:center;
+    padding-top:.5rem;
 }
 
 nav ul li a {
@@ -61,7 +62,8 @@ nav ul li.activebutton a {
     color: #F2490C;
     font-weight:bold;
     font-size:1.2rem;
-    padding:1rem;
+    padding:.5rem;
+    padding-bottom:.5rem;
 }
 
 nav ul li a:hover {
