@@ -37,17 +37,17 @@ fetch(apiURL)
         .then((response) => response.json())
         .then((jsObject) => {
     
-            const hourmark = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
-            const weekdays = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+            const time = jsObject.list.filter(x => x.dt_txt.includes('18:00:00'));
+            const weekday = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
             let day = 0;
             
             time.forEach(forecast => {
                 let thedate = new Date(forecast.dt_txt);
-                const imagesrc = 'https://openweathermap.org/img/w/' + forecast.weather[0].icon + '.png';
-                const desc = forecast.weather[0].description;
-                document.querySelector(`#day${day + 1}`).textContent = weekdays[thedate.getDay()];
+                const imgsrc = 'https://openweathermap.org/img/w/'${jsObject.weather[0].icon}png';
+                const desc = jsObject.weather[0].description;
+                document.querySelector(`#day${day + 1}`).textContent = weekday[thedate.getDay()];
                 document.querySelector(`#dtemp${day + 1}`).textContent = forecast.main.temp.toFixed(0) + "°F";
-                document.querySelector(`#img${day+1}`).setAttribute('src', imagesrc);
+                document.querySelector(`#img${day+1}`).setAttribute('src', imgsrc);
                 document.querySelector(`#img${day+1}`).setAttribute('alt', desc);
                 day++;
     
