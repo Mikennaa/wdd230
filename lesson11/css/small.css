@@ -1,0 +1,277 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size:1.2rem;
+}
+
+header, footer {
+    background-color:#262473;
+    color:white;
+    padding:0.6rem;
+    text-align:center;
+    font-family:'Lora', serif;
+    font-weight:bold;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+}
+
+header img {
+    margin-right:2%;
+    margin-left:1em;
+}
+
+.tagline {
+    display: block;
+    font-size:.9rem;
+}
+
+nav button {
+    margin: .2rem 2%;
+    padding: .45rem;
+    background-color: transparent;
+    border: none;
+    color: #262473;
+    font-size:1.1rem;
+}
+
+nav {
+    background-color: #6AAED9;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: .5rem;
+    padding: 0;
+    text-align:center;
+}
+
+nav ul li a {
+    display: block;
+    color: #262473;
+    font-size:1.2rem;
+    padding: 0.7rem 2%;
+    text-decoration: none;
+    border-top: 1px solid rgba(0,0,0,.3)
+}
+
+nav ul li.activebutton a {
+    background-color: white;
+    color: #F2490C;
+    font-weight:bold;
+    font-size:1.2rem;
+}
+
+nav ul li a:hover {
+    background-color: white;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive li {
+    display: block;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    font-size:3.3rem;
+}
+
+h2 {
+    font-size:1.6rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:left;
+    font-weight:bold;
+}
+
+h3, h4 {
+    color:#262473;
+    text-align:left;
+    font-size:2.0rem;
+}
+
+
+main {
+    margin:0 auto;
+    padding:1.0rem;
+    color:white;  
+}
+
+.prestontown {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+a {
+    text-decoration:none;
+	color:white;
+}
+
+p {
+    color:#262473;
+    text-align:left;
+    font-size:.8rem;
+    line-height:1.1rem;
+}
+ 
+.contentbox {
+    display:block;
+    margin: 10px auto;
+    padding:15px;
+    color:#262473;
+    line-height:1.2em;
+    box-sizing:border-box;
+    font-size:1.3em;
+    background-color:#6AAED9;
+}
+
+.contentboxes {
+    display:block;
+    margin: 10px auto;
+    padding:15px;
+    color:#262473;
+    line-height:1.2em;
+    box-sizing:border-box;
+    font-size:1.3em; 
+}
+.summary h2 {
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:left;
+    text-decoration:underline;      
+}
+
+.herodiv {
+    position: relative;
+    max-width:100%;
+}
+
+.gridlayout {
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+
+.summary {
+    position:absolute;
+    background:white;
+    opacity:.9;
+    box-shadow: 0 0 25px gray;
+    padding:.9rem;
+    top:18px;
+    left:18px; 
+}
+
+.label {
+    color:#F2490C;
+    margin-right:.5rem;
+    font-size:1.1rem;
+}
+
+.value {
+    color:#F2490C;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+} /* let us combine row and wrap with flow */
+
+.forecast-col {
+    flex: 1 1 auto;
+    background-color: white;
+}
+.forecast-col, .column-col, .grid-col {
+    border-bottom: 1px solid #333;
+    border-left: 1px solid #333;
+    text-align: center;
+}
+.forecast-col:hover, td:hover, .column-col:hover, .grid-col:hover {
+    opacity: 0.75;
+    background-color: #034C8C;
+    color: white;
+}
+.flex, .column, .grid {
+    border-right: 1px solid #333;
+}
+
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #034C8C;
+    text-align: center;
+}
+  
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+    color:#034C8C;
+}
+
+.col-head,th {
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #034C8C;
+    color: white;
+}
+
+.contentboxes p {
+    font-size:.9rem;
+    max-width:100%;
+}
+
+.tomatoes img {
+    float:right;
+    box-shadow:0 0 25px gray;
+    max-width:100%;
+}
+
+.contactinfo p {
+    color:white;
+    font-size:.85rem;
+
+}
+
+.prestonMap {
+    float:right;
+    border:5px solid white; 
+}
+
+.pancakefriday {
+    background-color:#F5863B;
+    padding:1em;
+}
+
+.pancakefriday p {
+    color:white;
+    text-align:center;
+    font-size:1.2rem;
+    font-style:italic;  
+}
+
+.gridlayout #currentval {
+    color:#F2490C;
+}
+
+footer {
+max-width:100%;
+margin: 0 auto;
+text-align: center;
+line-height:1.2rem;
+}

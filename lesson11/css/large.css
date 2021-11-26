@@ -1,0 +1,17 @@
+@media (min-width:60em){
+    body {
+        margin:0 auto;
+    }
+    
+    nav ul{
+        display:flex;
+    }
+
+    nav ul li {
+        flex:1 1 100%;
+    }
+}
+
+.gallery li:hover {
+    box-shadow: 0 5px 50px #737373;
+}
