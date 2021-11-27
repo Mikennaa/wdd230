@@ -95,6 +95,7 @@ h2 {
     color:#F2490C;
     text-align:left;
     font-weight:bold;
+    margin:5px;
 }
 
 h3, h4 {
@@ -241,14 +242,24 @@ p {
 .contactinfo p {
     color:white;
     font-size:.85rem;
-
+    margin:5px;
 }
 
+.contactinfo {
+    background-color:#6AAED9;
+    margin:10px;
+}
 .prestonMap {
     float:right;
     border:5px solid white; 
     width:60%;
     height:auto;
+    margin:10px;
+
+}
+
+.social img {
+    margin:5px;
 }
 
 .pancakefriday {
@@ -281,6 +292,7 @@ line-height:1.2rem;
     position:relative;
     width:100%;
     height:auto;
+    margin:1rem;
 }
 
 div.towns {
@@ -312,7 +324,7 @@ div.towns p {
     text-align:center;
 }
 
-div.towns img {
+img div.towns {
     width:70%;
     height:auto;
 }
@@ -324,6 +336,7 @@ div.towns img {
     text-align:left;
     font-weight:bold; 
 }
+
 
 /*------------- Storm Center Page---------------*/
 
@@ -395,4 +408,29 @@ form label.top input:required {
 
 .gallerygrid img {
     width:100%;
+    padding:10px;
+}
+
+.gallerygrid li p {
+   padding:5px;
+}
+
+/*------------- Soda Springs Page---------------*/
+.sodaspringsMap {
+    float:right;
+    border:5px solid white; 
+    width:60%;
+    height:auto;
+    margin:10px;
+
+}
+
+/*------------- Fish Haven Page---------------*/
+.fishhavenMap {
+    float:right;
+    border:5px solid white; 
+    width:60%;
+    height:auto;
+    margin:10px;
+
 }
