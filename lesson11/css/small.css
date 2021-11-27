@@ -240,13 +240,20 @@ p {
 
 .contactinfo p {
     color:white;
-    font-size:.85rem;
+    font-size:.99rem;
+    margin:5px;
+}
+
+.contactinfo h2 {
+    color:white;
+    font-style:bold;
     margin:5px;
 }
 
 .contactinfo {
     background-color:#6AAED9;
-    margin:10px;
+    margin:15px;
+    padding:5px 0 0 5px;
 }
 .prestonMap {
     float:right;

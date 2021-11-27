@@ -51,6 +51,16 @@ div.towns img {
     height:auto;
 }
 
+.sodaspringsMap {
+    width:30%;
+    height:auto;
+}
+
+.fishhavenMap {
+    width:30%;
+    height:auto;
+}
+
 /*-------------Gallery Page---------------*/
 .gallery li:hover {
     box-shadow: 0 5px 50px #737373;
