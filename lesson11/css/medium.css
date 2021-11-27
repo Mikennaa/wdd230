@@ -14,4 +14,32 @@ nav ul.hide{
 	flex: 1 1 100%;
 	justify-content:space-evenly;
 }
+
+
+/*-------------Home Page---------------*/
+div.towns section {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+}
+
+div.towns section:nth-child(odd) div {
+    grid-column:2;
+}
+
+div.towns section:nth-child(odd) img {
+    grid-column:1;
+    grid-row:1;
+}
+
+div.towns img {
+    width:100%;
+    height:auto;
+    text-align:center;
+    margin:0 auto;
+}
+.prestonMap {
+    display:block;
+    
+}
 }
