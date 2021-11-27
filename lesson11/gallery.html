@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Naturally Weather Gallery</title>
+    <meta name="description" content="Naturally Weather Photo Gallery">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/lazyload.css">
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/fonts.js"></script>
+    <script defer src="js/lazyload.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">    
+</head>
+
+<body>
+      <header>
+        <picture><img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150"></picture>
+         
+        <section class="headings">
+          <h1>Naturally Weather</h1>
+        <div class="tagline">Predicting Mothernature before the day begins</div>
+      </section>
+      </header> 
+      
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/home.html">Home</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/preston.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+          <li class="activebutton"><a href="https://mikennaa.github.io/wdd230/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    
+
+  <main>
+    <h2>Weather Gallery</h2>
+      <div class= "gallery">
+     <ul>
+       <li>
+         <picture class="gallerygrid">
+           <img src="images/wplaceholder.jpg" data-src="images/wgallery.jpg" alt="blossoms on a tree">
+         </picture>
+         <p>Can you feel it? It's springtime! The blossoms are here!</p>
+       </li>
+
+       <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery3.jpg" alt="green fields">
+        </picture>
+        <p>We are loving the beautiful pictures coming in of our valley in full Spring!</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery4.jpg" alt="mountains, and a small body of water">
+        </picture>
+        <p>Don't you love that reflection in the water! Summer is absolutely beautiful here in Preston, and we hope those fluffy clouds turn to rain.</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images\wgallery5.jpg" alt="dark sky filled with clouds hovering over houses">
+        </picture>
+        <p>Do you see what we see? We have some wonderful clouds rolling in, now all we need is the rain!</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img class="galleryimg" src="images/wplaceholder.jpg" data-src="images/wgallery6.jpg" alt="lighting in the sky">
+        </picture>
+        <p>Isn't this shot incredible! That lightning making it's way across the sky is absolutely incredible!</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery2.jpg" alt="a field of sunflowers">
+        </picture>
+        <p>You know it's getting to be the end of Summer when these beauties are in full bloom! Oh enjoy these blooming sunshines!</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery7.jpg" alt="person with an umbrella in the snow flurries">
+        </picture>
+        <p>You know you live in Idaho when snow arrives in October! Grab your umbrellas, and winter coats, snow is here.</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery8.jpg" alt="snowpacked pine trees">
+        </picture>
+        <p>While we know it's cold outside, doesn't the sight of these snowcovered pines make you so happy! They are a piece of art!</p>
+      </li>
+
+      <li>
+        <picture class="gallerygrid">
+          <img src="images/wplaceholder.jpg" data-src="images/wgallery9.jpg" alt="man/woman with dog cross-country skiing across a lake surrounded by mountains">
+        </picture>
+        <p>Isn't this view breathtaking! Don't let the cold keep you in, grab a pair of ski's and get outside!</p>
+      </li>
+     </ul>
+     </div>
+     </main>
+  <footer>
+    <span id="visits"></span><br>
+    &copy; <span id="copyrightyear">2021</span> | Naturally Weather | Attributions | Mikenna Atkinson
+    <br> <span id="currentDate"></span>
+   
+   </footer>
+  </body>
+</html>  

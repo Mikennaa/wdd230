@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Naturally Weather Storm Center</title>
+    <meta name="description" content="Storm Center">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/dates.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/stormcenter.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Poppins:wght@100;200;300;500;600;700;800;900&display=swap" rel="stylesheet">    
+</head>
+
+<body>
+      <header>
+        <picture><img src="images/weatherbolt.png" alt="naturally weather logo with cloud and bolt" width="150" height="150"></picture>
+         
+        <section class="headings">
+          <h1>Naturally Weather</h1>
+        <div class="tagline">Predicting Mothernature before the day begins</div>
+      </section>
+      </header> 
+      
+      <nav class="clearfix">
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="hide">
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/home.html">Home</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/preston.html">Preston</a></li>
+          <li><a href="#">Soda Springs</a></li>
+          <li><a href="#">Fish Haven</a></li>
+          <li class="activebutton"><a href="https://mikennaa.github.io/wdd230/lesson11/stormcenter.html">Storm Center</a></li>
+          <li><a href="https://mikennaa.github.io/wdd230/lesson11/gallery.html">Gallery</a></li>
+        </ul>
+      </nav>
+    
+
+<main class="stormCenter">
+
+    <h2>Report A Storm</h2>
+    <form method="get" action="thanks.html">
+        <div class="stormform">
+            <fieldset>
+                <legend><h3>Contact Information</h3></legend>
+                <label class="top">Full Name* <input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com"></label>
+                <label class="top">Phone* <input type="tel" name="phone" required></label>
+                <label class="top">Zip Code* <input type="number" name="zcode" required></label>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Storm Information</h3></legend>
+                <label class="top">Storm Date <input type="date" name="stormdate" required></label>
+                <label class="top">Storm Type <input list="storm-type" name="storm-type" required/>
+                <datalist id="storm-type">
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Snowstorm"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist></label>
+            
+            <div class="scale">Storm Severity Rating</div>
+            <label class="scale" for="stormSeverity"> &nbsp;&nbsp;<input type="range" name="stormSeverity" id="stormSeverity" value="5" min="1" max="10" step="1" list="tickmarks"
+              oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"/>&nbsp;&nbsp; <span id="ratingvalue">5</span>
+            <datalist id="tickmarks">
+                    <option value="0">
+                    <option value="1">
+                    <option value="2">
+                    <option value="3">
+                    <option value="4">
+                    <option value="5">
+                    <option value="6">
+                    <option value="7">
+                    <option value="8">
+                    <option value="9">
+                    <option value="10">
+                </datalist>
+                </label>
+
+                <label class="top">Storm Region <select name="region">
+                    <option value="">Select Region &#9662;</option>
+                    <option value="fishhaven">Fish Haven</option>
+                    <option value="preston">Preston</option>
+                    <option value="sodasprings">Soda Springs</option>
+                    </select>
+                    </label>
+
+                <div class="sbs">Are you in danger?</div>
+                <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                <label for="addInfo" class="top">Additional Information<textarea name="addInfo" id="addInfo" cols="45" rows="10"></textarea></label>
+                </fieldset></div><br><br>
+
+                <div class="sbutton">
+                <input type="submit" value="Submit" class="submitbutton"></div>
+            </form>
+            </main>
+            <footer>
+                <span id="visits"></span><br>
+                &copy; <span id="copyrightyear">2021</span> | Naturally Weather | Attributions | Mikenna Atkinson
+                <br> <span id="currentDate"></span>
+            </footer>
+</body>
+</html>  
