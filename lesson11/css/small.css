@@ -130,6 +130,9 @@ main {
     height:auto;
 }
 
+.fish {
+    float:right;
+}
 
 a {
     text-decoration:none;
