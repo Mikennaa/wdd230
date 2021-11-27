@@ -257,14 +257,13 @@ p {
 }
 
 .contactinfo p {
-    color:white;
+    color:#034C8C;
     font-size:.99rem;
     margin:5px;
 }
 
 .contactinfo h2 {
-    color:white;
-    font-style:bold;
+    color:#034C8C;
     margin:5px;
 }
 
