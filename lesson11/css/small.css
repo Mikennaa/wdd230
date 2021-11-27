@@ -118,6 +118,19 @@ main {
     height:auto;
 }
 
+.fishtown {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+.sodatown {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+
 a {
     text-decoration:none;
 	color:white;
