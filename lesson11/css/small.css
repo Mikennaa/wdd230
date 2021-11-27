@@ -149,7 +149,7 @@ p {
     box-sizing:border-box;
     font-size:1.3em; 
 }
-.summary h2 {
+.wsummary h2 {
     font-size:1.2rem;
     font-weight:bold;
     color:#F2490C;
@@ -157,13 +157,12 @@ p {
     text-decoration:underline;      
 }
 
-
 .gridlayout {
     display:grid;
     grid-template-columns:1fr 1fr;
 }
 
-.summary {
+.wsummary {
     position:absolute;
     background:white;
     opacity:.9;
