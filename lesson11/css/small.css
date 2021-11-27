@@ -156,10 +156,6 @@ p {
     text-decoration:underline;      
 }
 
-.herodiv {
-    position: relative;
-    max-width:100%;
-}
 
 .gridlayout {
     display:grid;
@@ -251,6 +247,8 @@ p {
 .prestonMap {
     float:right;
     border:5px solid white; 
+    width:60%;
+    height:auto;
 }
 
 .pancakefriday {
@@ -275,3 +273,56 @@ margin: 0 auto;
 text-align: center;
 line-height:1.2rem;
 }
+
+
+/*-------------Home Page---------------*/
+
+.homeHero img {
+    position:relative;
+    width:100%;
+    height:auto;
+}
+
+div.towns {
+    display:grid;
+    gap:1rem;
+    max-width:1100px;
+    margin:0 auto;
+}
+
+div.towns h3 {
+    font-size:1.2rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:center;
+    font-weight:bold; 
+    margin:0;
+}
+
+div.towns h4 {
+    font-size:.9rem;
+    font-style:italic;
+    color:#F2490C;
+    text-align:center;
+    margin:0;
+}
+
+div.towns p {
+    margin:5px;
+    text-align:center;
+}
+
+div.towns img {
+    width:70%;
+    height:auto;
+}
+
+.homeArticle h3 {
+    font-size:1.4rem;
+    font-weight:bold;
+    color:#F2490C;
+    text-align:left;
+    font-weight:bold; 
+}
+
+/*------------- Page---------------*/
