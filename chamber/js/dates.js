@@ -8,4 +8,8 @@ const options = {
     year: 'numeric',
 }
 
-document.getElementById("currentDate").textContent=d.toLocaleDateString('en-UK', options);
+
+function myFunction() {
+    var x = document.lastModified;
+    document.getElementById("modified").innerHTML = x;
+}
