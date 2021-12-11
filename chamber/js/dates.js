@@ -9,7 +9,6 @@ const options = {
 }
 
 
-function myFunction() {
-    var x = document.lastModified;
-    document.getElementById("modified").innerHTML = x;
-}
+document.querySelector(
+    "#lastModified").textContent=`Last Modification:${document.lastModified}`;
+)
