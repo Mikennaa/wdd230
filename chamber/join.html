@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Grace Idaho Chamber of Commerce</title>
+        <meta name="description" content="A site dedicated to providing up-to-date information about local businesses">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/dates.js"></script>
+        <script defer src="js/hamburger.js"></script>
+        <script defer src=></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <picture><img src="images/chamberlogo.jpg" alt="Grace Idaho chamber of commerce logo"></picture>
+            <section class="headerinfo">
+                <div class="socialicons">
+                    <a href="https://www.facebook.com/City-of-Grace-Idaho-Chamber-of-Commerce-451771845158097"><img src="images/facebook32.png" alt="Facebook icon"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagram32.png" alt="Instagram icon"></a>
+                    <a href="https://www.linkedIn.com/"><img src="images/linkedin32.png" alt="LinkedIn icon"></a>
+                </div>
+            </section>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li class="activebutton"><a href="https://mikennaa.github.io/wdd230/chamber/home.html">Home</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/city.html">City</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/join.html">Join</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/directory.html">Directory</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/contact.html">Contact</a></li>
+            </ul>
+            </nav>
+
+
+<main class="joinpage">
+
+    <h2>Become A Member</h2>
+    <form method="get" action="thanks.html">
+        <div class="joinform">
+            <fieldset>
+                <legend><h3>Contact Information</h3></legend>
+                <label class="top">First Name* <input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Last Name* <input type="text" name="lname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Title <input type="text" name="title" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone"></label>
+                <label class="top">Business Name* <input type="text" name="bname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Business Address <input type="number" name="baddress" required></label>
+                <label class="top">Business Website <input type="text" name="bwebsite" required pattern="[A-Za-z].{5,}"></label>
+                <label for="addInfo" class="top">Business Description<textarea name="addDesc" id="addDesc" cols="45" rows="10"></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend><h3>Membership Level Selection</h3></legend>
+                <li> Non-profit $100 </li>
+                <li> Bronze $200 </li>
+                <li> Silver $400 </li>
+                <li> Gold $1000 </li>
+                </p>
+                <label class="top">Membership Level <input list="member-type" name="member-type" required/>
+                <datalist id="member-type">
+                    <option value="Non-profit - $100"></option>
+                    <option value="Bronze - $200"></option>
+                    <option value="Silver - $400"></option>
+                    <option value="Gold - $1000"></option>
+                </datalist></label>
+                </fieldset>
+                <div class="jbutton">
+                <input type="submit" value="Join" class="joinbutton"></div>
+            </form>
+            </main>
+            <footer>
+
+                <div class="footerinfo">
+                    &copy; <span id="copyrightyear">2021</span> | Grace Idaho Chamber of Commerce |  Mikenna Atkinson
+<br> <span id="modified"></span>
+                    </div>
+                </footer>
+</body>
+</html>           
