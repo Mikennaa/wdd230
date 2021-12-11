@@ -10,5 +10,5 @@ const options = {
 
 
 document.querySelector(
-    "#lastModified").textContent=`Last Modification:${document.lastModified}`;
-)
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
