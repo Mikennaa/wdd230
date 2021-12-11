@@ -12,3 +12,12 @@ header p {
 a {
     text-decoration:none;
 }
+
+header img {
+    width:30%;
+    height:auto;
+}
+
+.socialicons {
+    width:10%;
+}
