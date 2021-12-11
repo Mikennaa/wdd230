@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Grace Idaho Chamber of Commerce</title>
+        <meta name="description" content="A site dedicated to providing up-to-date information about local businesses">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <script defer src="js/dates.js"></script>
+        <script defer src="js/hamburger.js"></script>
+        <script defer src="js/join.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <picture><img src="images/chamberlogo.jpg" alt="Grace Idaho chamber of commerce logo"></picture>
+        </header>
+        
+        <nav class="clearfix">
+            <button onclick="toggleMenu()">&#9776; Menu</button>
+            <ul id="primaryNav" class="hide">
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/home.html">Home</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/city.html">City</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/join.html">Join</a></li>
+                <li><a href="https://mikennaa.github.io/wdd230/chamber/directory.html">Directory</a></li>
+                <li class="activebutton"><a href="https://mikennaa.github.io/wdd230/chamber/contact.html">Contact</a></li>
+            </ul>
+            </nav>
+
+
+<main class="contactpage">
+
+    <h2> Contact Us</h2></h2C></h2>
+    <form method="get" action="thanks.html">
+        <div class="contactform">
+            <fieldset>
+                <legend><h3>Contact Us</h3></legend>
+                <label class="top">Full Name* <input type="text" name="fname" required pattern="[A-Za-z].{5,}"></label>
+                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="top">Phone <input type="tel" name="phone"></label>
+                <label for="addInfo" class="top">Message<textarea name="addDesc" id="addDesc" cols="45" rows="10"></textarea></label>
+            </fieldset>
+                <div class="sbutton">
+                <input type="submit" value="Send Message" class="sendbutton"></div>
+            </form>
+
+            
+            <div class="socialicons">
+                <a href="https://www.facebook.com/City-of-Grace-Idaho-Chamber-of-Commerce-451771845158097"><img src="images/facebook32.png" alt="Facebook icon"></a>
+                <a href="https://www.instagram.com/"><img src="images/instagram32.png" alt="Instagram icon"></a>
+                <a href="https://www.linkedIn.com/"><img src="images/linkedin32.png" alt="LinkedIn icon"></a>
+            </div>
+            </main>
+            <footer>
+
+                <div class="footerinfo">
+                    &copy; <span id="copyrightyear">2021</span> | Grace Idaho Chamber of Commerce |  Mikenna Atkinson
+<br> <span id="modified"></span>
+                    </div>
+                </footer>
+</body>
+</html>           
