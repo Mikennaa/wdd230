@@ -1,6 +1,6 @@
 
 header, footer {
-    background-color:white;
+    background-color:#FFFFFF;
     padding:0.6rem;
     text-align:center;
     font-family:'Cormorant Garamond', serif;
@@ -19,7 +19,7 @@ nav button {
     padding: .45rem;
     background-color: transparent;
     border: none;
-    color: white;
+    color: #FFFFFF;
     font-size:1.6rem;
     font-family:'Cormorant Garamond', serif;
     font-weight:bold;
@@ -38,21 +38,21 @@ nav ul {
 }
 nav ul li a {
     display: block;
-    color: white;
+    color: #FFFFFF;
     font-size:1.2rem;
     font-weight:bold;
     padding: 0.7rem 2%;
     text-decoration: none;
-    border-top: 1px solid white;
+    border-top: 1px solid #FFFFFF;
 }
 nav ul li.activebutton a {
-    background-color: white;
+    background-color: #FFFFFF;
     color: #2D5771;
     font-weight:bold;
     font-size:1.2rem;
 }
 nav ul li a:hover {
-    background-color: white;
+    background-color: #FFFFFF;
     color:#2D5771;
     font-weight:bold;
 }
@@ -69,8 +69,10 @@ nav ul.hide {
 }
 body {
     font-family:'Raleway', sans-serif;
+    font-size:1.0rem;
+    line-height:1.4rem;
+    text-align:center;
 }
-
 .socialicons {
     padding:10px;
 }
@@ -82,5 +84,15 @@ img.socialicons {
     padding:6px;
 }
 
+/*------Home Page-------*/
+img.homeSpotlight {
+    width:30%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    background-color:#2D5771;
+    color:#FFFFFF;
+}
+}
 
 

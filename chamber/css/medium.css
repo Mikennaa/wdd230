@@ -5,4 +5,15 @@ header img {
     height:auto;
 }
 
+/*------Home Page-----*/
+img.homeSpotlight {
+    width:30%;
+    display:flex;
+    justify-content:center;
+    background-color:#2D5771;
+    color:#FFFFFF;
+}
+
+
+
 }
