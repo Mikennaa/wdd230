@@ -67,6 +67,15 @@ nav ul.hide {
 .responsive li {
     display: block;
 }
+
+h2 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight:bold;
+}
+h3 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight:bold;
+}
 body {
     font-family:'Raleway', sans-serif;
     font-size:1.0rem;
@@ -101,16 +110,19 @@ img.homeSpotlight {
 
 
 /*------Join Page ---------*/
-.thankyou {
-    padding:5rem;
+.joinpage {
+    padding:2rem;
 }
+
 main.joinpage {
     text-align:left;
     max-width:75%; 
 }
 .memberform {
-    background-color:#B6E7F2;
-    padding:.80rem;
+    background-color:#D2E7FA;
+    padding:.70rem;
+    display: flex;
+    flex-direction:column;
 }
 label.top {
     color:#2D5771;
@@ -118,6 +130,9 @@ label.top {
 }
 .top {
     padding:.75rem 0;
+}
+.jbutton {
+    padding:.5rem;
 }
 
 }
