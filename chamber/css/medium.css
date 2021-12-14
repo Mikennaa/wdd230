@@ -20,4 +20,8 @@ img.homeSpotlight {
     color:#FFFFFF;
 }
 
+/*----Contact Us Page----*/
+.contactpage {
+    display:flex;
+}
 }
