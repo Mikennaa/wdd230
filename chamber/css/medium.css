@@ -8,12 +8,16 @@ header img {
 /*------Home Page-----*/
 img.homeSpotlight {
     width:30%;
+    padding:5rem;
+}
+
+.homeSpotlight {
     display:flex;
+    flex-direction:row;
+    flex:30%;
     justify-content:center;
     background-color:#2D5771;
     color:#FFFFFF;
 }
-
-
 
 }
