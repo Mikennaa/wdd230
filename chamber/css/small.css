@@ -25,7 +25,8 @@ nav button {
     font-weight:bold;
 }
 nav {
-    background-color: #6AAED9;
+    background-color: #2D5771;
+    padding:3px;
 }
 nav ul {
     list-style-type: none;
@@ -46,13 +47,13 @@ nav ul li a {
 }
 nav ul li.activebutton a {
     background-color: white;
-    color: #667302;
+    color: #2D5771;
     font-weight:bold;
     font-size:1.2rem;
 }
 nav ul li a:hover {
     background-color: white;
-    color:#667302;
+    color:#2D5771;
     font-weight:bold;
 }
 nav ul.hide {
