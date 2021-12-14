@@ -139,5 +139,21 @@ label.top {
     font-weight: bold;
 }
 
+/*-----Contact Us Page------*/
+.contactform {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding:1rem;
+}
+.sbutton {
+    padding:.5rem;
+    font-weight:bold;
+    background-color:#D2E7FA;
+}
+.contactmap {
+    padding:1rem;
+    justify-content:center;
+}
 }
 
