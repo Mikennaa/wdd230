@@ -70,10 +70,15 @@ body {
     font-family:'Raleway', sans-serif;
 }
 
-
-
 .socialicons {
+    padding:10px;
+}
+
+img.socialicons {
     width:10%;
+    display: flex;
+    justify-content:center;
+    padding:6px;
 }
 
 
