@@ -1,0 +1,26 @@
+@media only screen and (min-width: 32.5em) {
+
+header img {
+    width:45%;
+    height:auto;
+}
+nav button {
+    display:none;
+}
+nav ul.hide{
+    display:flex;
+	margin:0 auto;
+	flex: 1 1 100%;
+	justify-content:space-evenly;
+}
+
+
+
+
+
+
+
+.socialicons {
+    width:10%;
+}
+}
