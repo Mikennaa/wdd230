@@ -86,13 +86,55 @@ img.socialicons {
 
 /*------Home Page-------*/
 img.homeSpotlight {
-    width:30%;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
+    width:10%;
+    padding:5rem;
+}
+.homeSpotlight {
     background-color:#2D5771;
     color:#FFFFFF;
-}
+    padding:5rem;
+    display: flex;
+    flex:100%;
+    flex-direction:column;
+    justify-content:center;
 }
 
+
+/*------Join Page ---------*/
+.thankyou {
+    padding:5rem;
+}
+main.joinpage {
+    text-align:left;
+    max-width:75%; 
+}
+.memberform {
+    background-color:#2D5771;
+    padding:.80rem;
+}
+
+label.top {
+    color:#262473;
+    display:block;
+}
+
+.top {
+    padding:.75rem 0;
+}
+
+.stormrange {
+    color:#262473;
+    padding:.75rem 0;
+}
+
+.scale, .sbs {
+    color:#262473;
+    display:block;
+    padding:.75rem 0;
+}
+
+form label.top input:required {
+    border:2px solid #262473;
+}
+}
 
