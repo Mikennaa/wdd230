@@ -71,10 +71,12 @@ nav ul.hide {
 h2 {
     font-family:'Cormorant Garamond', serif;
     font-weight:bold;
+    font-size:1.6rem;
 }
 h3 {
     font-family:'Cormorant Garamond', serif;
     font-weight:bold;
+    font-size:1.2rem;
 }
 body {
     font-family:'Raleway', sans-serif;
@@ -130,9 +132,11 @@ label.top {
 }
 .top {
     padding:.75rem 0;
+    font-weight:bold;
 }
 .jbutton {
     padding:.5rem;
+    font-weight: bold;
 }
 
 }
