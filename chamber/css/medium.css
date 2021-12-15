@@ -4,16 +4,13 @@ header img {
     width:45%;
     height:auto;
 }
-
 /*------Home Page-----*/
-b.cards {
+b.cards img {
     display:flex;
     flex-direction:row;
     width:30%;
     padding:5rem;
-
 }
-
 /*------Thanks Page-----*/
 
 /*----Contact Us Page----*/

@@ -76,8 +76,7 @@ h2 {
 }
 h3 {
     font-family:'Cormorant Garamond', serif;
-    font-weight:bold;
-    font-size:1.2rem;
+    font-weight:bold;   
 }
 body {
     font-family:'Raleway', sans-serif;
@@ -113,6 +112,8 @@ img.socialicons {
     text-decoration:underline;
     margin:.2em;
     font-weight:bold;
+    font-size:1.45rem;
+    color:#2D5771;
 }
 .gridlayout {
     display:grid;
@@ -143,35 +144,46 @@ img.socialicons {
 }  
 .homebtn {background-color: #2D5771;
 }
-.bcards img{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    width:80%;
-    border:7px solid #FFFFFF;
-    padding:1rem;
-}
-.homeSpotlight {
+.homegallery {
+    padding:2rem;
     background-color:#2D5771;
+}
+.homegallery h2 {
     color:#FFFFFF;
-    padding:5rem;
+}
+.homegallery ul {
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:1rem;
+    padding:0;
+    justify-content:center;
+}
+.sgallery {
+    position:relative;
+    margin:0;
+    overflow:hidden;
+}
+.sgallery img {
+    width:50%;
+    border:7px solid #FFFFFF;
+}
 }
 div.forecast {
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
     text-align:center;
 }
-.daysweather img {
+.dayweather img {
     display:block;
     margin:0 auto;
     padding:0.2em;
 }
-.days,daysweather {
+.day,dayweather {
     border:1px solid #2D5771;
     padding:0.3em;
     background-color: ;
 }
-.daysweather {
+.dayweather {
     background-color:#D2E7FA;
 }
 /*------Join Page ---------*/
