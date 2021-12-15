@@ -11,7 +11,7 @@ fetch(requestURL)
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             h2.textContent = businesses[i].name + ' ';
-            card.appendChild(h2);
+            card.appendChild(h3);
             document.querySelector('div.bcards').appendChild(card);
   
             let address = document.createElement('p');
