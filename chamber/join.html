@@ -51,15 +51,16 @@
                 <label class="top">Business Name* <input type="text" name="bname" required pattern="[A-Za-z].{5,}"></label>
                 <label class="top">Business Address <input type="text" name="baddress"></label>
                 <label class="top">Business Website <input type="text" name="bwebsite"></label>
-                <label for="addInfo" class="top">Business Description <textarea name="addDesc" id="addDesc" cols="45" rows="10"></textarea></label>
+                <label for="addDesc" class="top">Business Description <textarea name="addDesc" id="addDesc" cols="45" rows="10"></textarea></label>
             </fieldset>
             <fieldset>
                 <legend><h3>Membership Level Selection</h3></legend>
+            <ul>
                 <li><strong>Non-profit $100:</strong> Not for profit organizations. Member profile display in our online directory. Admittance to monthly meetings. </li><br>
                 <li><strong>Bronze $200:</strong> Business profile display in our directory. Early access  to Sponsorship opportunities. Business promotion on our social pages. Admittance to monthly meetings.</li><br>
                 <li><strong>Silver $400:</strong> All benefits of Bronze membership. Weekly ad promotion in local paper. Quarterly luncheon ticket. </li><br>
                 <li><strong>Gold $1000:</strong> All benefits of Silver membership. Exclusive one-on-one meetings with Chamber President. Banner promotion during our 'Shop local' weekend. Business training conference tickets.</li><br>
-                </p>
+            </ul>
                 <label class="top"><strong>Membership Level </strong><input list="member-type" name="member-type" required/>
                 <datalist id="member-type">
                     <option value="Non-profit"></option>
@@ -70,6 +71,7 @@
                 </fieldset>
                 <div class="jbutton">
                 <input type="submit" value="Become A Member" class="joinbutton"></div>
+                </div>
             </form>
             
             </main>
