@@ -96,6 +96,21 @@ img.socialicons {
 }
 
 /*------Home Page-------*/
+.heroimg {
+    position:relative;
+}
+.weathersummary {
+    display:grid;
+    grid-gap:.3em;
+    background-color:#D2E7FA;
+    padding:.5em;
+    width: max-content;
+    box-shadow: 0 0 5px #011126;
+    position:absolute;
+}
+.weathersummary {
+    grid-column:1/3;
+}
 img.homeSpotlight {
     width:10%;
     padding:5rem;
@@ -109,8 +124,35 @@ img.homeSpotlight {
     flex-direction:column;
     justify-content:center;
 }
-
-
+.category {
+    text-align:right;
+    font-family:'Raleway', sans-serif;
+}
+.conditions {
+    color:#2D5771;
+    font-family:'Raleway', sans-serif;
+}
+#desc {
+    text-transform:capitalize;
+}
+.forecast {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align:center;
+}
+.daysweather img {
+    display:block;
+    margin:0 auto;
+    padding:0.2em;
+}
+.days,daysweather {
+    border:1px solid #2D5771;
+    padding:0.3em;
+    background-color: ;
+}
+.daysweather {
+    background-color:#D2E7FA;
+}
 /*------Join Page ---------*/
 .joinpage {
     padding:2rem;
