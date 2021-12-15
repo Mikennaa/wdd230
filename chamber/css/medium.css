@@ -25,3 +25,8 @@ img.homeSpotlight {
     display:flex;
 }
 }
+
+img.boardmbrs {
+    display:flex;
+    justify-content:center;
+}
