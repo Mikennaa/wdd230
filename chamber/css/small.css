@@ -97,10 +97,9 @@ img.socialicons {
 }
 
 /*------Home Page-------*/
-.heroimg {
-    position:relative;
-    padding:0;
-}
+.herodiv {
+    position: relative;
+  }
 .wsummary h3 {
     text-align:left;
     text-decoration:underline;
@@ -155,7 +154,6 @@ img.socialicons {
     color:#FFFFFF;
     padding:5rem;
 }
-
 .forecast {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -178,7 +176,6 @@ img.socialicons {
 .joinpage {
     padding:2rem;
 }
-
 main.joinpage {
     text-align:left;
     max-width:75%; 
