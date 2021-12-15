@@ -144,10 +144,13 @@ label.top {
     display:flex;
     flex-direction:column;
     justify-content:center;
-    padding:1rem;
+    padding:1.5rem;
 }
 p.contactinfo {
     line-height:2rem;
+}
+.contactinfo {
+    padding:.5rem;
 }
 .sbutton {
     padding:.5rem;
@@ -159,6 +162,30 @@ p.contactinfo {
     justify-content:center;
     width: 20%;
     height:auto;
+}
+.gallery ul {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap:1rem;
+    padding:0;
+    justify-content: center;
+}
+
+.bgallery {
+    position:relative;
+    margin:0;
+    overflow:hidden;
+}
+
+.bgallery img {
+    width:50%;
+}
+
+.bgallery li p {
+   padding:5px;
+}
+p.board {
+    font-weight:bold;
 }
 }
 
