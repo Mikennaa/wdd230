@@ -167,6 +167,9 @@ img.socialicons {
     width:50%;
     border:7px solid #FFFFFF;
 }
+ul.events {
+    color:#2D5771;
+    font-weight:bold;
 }
 div.forecast {
     display:grid;
@@ -186,10 +189,21 @@ div.forecast {
 .dayweather {
     background-color:#D2E7FA;
 }
+p.hcontactinfo {
+    line-height:2rem;
+    color:#FFFFFF;
+}
+h2.hcontactinfo {
+    color:#FFFFFF;
+}
+.hcontactinfo {
+    padding:.5rem;
+    background-color:#2D5771;
+}
 .homemap iframe {
     padding:1.5rem;
     justify-content:center;
-    width: 30%;
+    width: 50%;
     height:auto;
     border: 7px solid #D2E7FA;
 }
