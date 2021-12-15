@@ -31,6 +31,9 @@ h2 {
     flex-direction:row;
     padding:1.1rem;
 }
+.contactmap iframe {
+    width:80%;
+}
 .bgallery {
     display:flex;
     flex-direction:row;
@@ -38,6 +41,11 @@ h2 {
 }
 .gallery li:hover {
     box-shadow: 0 5px 50px #737373;
+}
+
+h2 .gallery {
+    padding:1.2rem;
+    text-align:center;
 }
 
 }

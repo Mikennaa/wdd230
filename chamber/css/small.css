@@ -157,11 +157,12 @@ p.contactinfo {
     font-weight:bold;
     background-color:#D2E7FA;
 }
-.contactmap {
-    padding:1rem;
+.contactmap iframe {
+    padding:1.5rem;
     justify-content:center;
-    width: 20%;
+    width: 80%;
     height:auto;
+    border: 7px solid #D2E7FA;
 }
 .gallery {
     padding:2rem;
@@ -180,12 +181,12 @@ p.contactinfo {
 }
 .bgallery img {
     width:50%;
-    border: 4px solid #D2E7FA;
+    border: 7px solid #D2E7FA;
 }
 .bgallery li p {
    padding:5px;
 }
-p.board {
+.board p {
     font-weight:bold;
 }
 

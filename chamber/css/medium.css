@@ -27,3 +27,6 @@ img.homeSpotlight {
 }
 
 /*----Contact Us Page----*/
+.contactmap iframe {
+    width:70%;
+}
