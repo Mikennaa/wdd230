@@ -170,6 +170,7 @@ img.socialicons {
 ul.events {
     color:#2D5771;
     font-weight:bold;
+    line-height:1.6rem;
 }
 div.forecast {
     display:grid;
