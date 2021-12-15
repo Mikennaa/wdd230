@@ -146,6 +146,9 @@ label.top {
     justify-content:center;
     padding:1rem;
 }
+p.contactinfo {
+    line-height:2rem;
+}
 .sbutton {
     padding:.5rem;
     font-weight:bold;
@@ -154,6 +157,8 @@ label.top {
 .contactmap {
     padding:1rem;
     justify-content:center;
+    width: 20%;
+    height:auto;
 }
 }
 

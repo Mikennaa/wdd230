@@ -21,12 +21,3 @@ img.homeSpotlight {
 }
 
 /*----Contact Us Page----*/
-.contactpage {
-    display:flex;
-}
-}
-
-img.boardmbrs {
-    display:flex;
-    justify-content:center;
-}
