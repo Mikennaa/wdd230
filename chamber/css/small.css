@@ -96,7 +96,17 @@ img.socialicons {
 }
 /*------Home Page-------*/
 .herodiv {
-    position: relative;
+    position:relative;
+}
+.wsummary {
+    position:absolute;
+    background-color:#D2E7FA;
+    padding:1em;
+    width: max-content;
+    box-shadow: 0 0 5px #011126;
+    text-align:left;
+    top:15px;
+    left:16px;
 }
 .wsummary h3 {
     text-align:left;
@@ -107,14 +117,6 @@ img.socialicons {
 .gridlayout {
     display:grid;
     grid-template-columns: 1fr 1fr;
-}
-.wsummary {
-    position:absolute;
-    background-color:#D2E7FA;
-    padding:.5em;
-    width: max-content;
-    box-shadow: 0 0 5px #011126;
-    text-align:left;
 }
 .category {
     color:#2D5771;
@@ -156,7 +158,7 @@ img.socialicons {
 }
 div.forecast {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:1fr 1fr 1fr;
     text-align:center;
 }
 .daysweather img {
