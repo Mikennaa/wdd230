@@ -315,12 +315,33 @@ p.contactinfo {
     margin:0;
     overflow:hidden;
 }
-
 .cgallerygrid img {
     width:90%;
     padding:10px;
 }
-
 .cgallerygrid li p {
    padding:5px;
+}
+/*-----Directory Page------*/
+.cards section {
+    border: 2px solid white;
+}
+.bcards {
+    display:grid;
+    grid-template-columns:1fr;
+    grid-gap:0.5rem;
+    padding:1rem;
+}
+.bcards h3 {
+    text-align:center;
+    font-family:'Lora', serif;
+    font-size:1.5em;
+}
+.bcards p {
+    text-align:center;
+}
+b.cards img {
+    max-width:60%;
+    box-shadow: 0px 0px 10px 2px #011126;
+    margin:1rem;
 }

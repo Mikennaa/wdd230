@@ -9,8 +9,8 @@ fetch(requestURL)
         const businesses = jsonObject['businesses']
         for (let i = 0; i < businesses.length; i++) {
             let card = document.createElement('section');
-            let h2 = document.createElement('h2');
-            h2.textContent = businesses[i].name + ' ';
+            let h3 = document.createElement('h3');
+            h3.textContent = businesses[i].name + ' ';
             card.appendChild(h3);
             document.querySelector('div.bcards').appendChild(card);
   
@@ -36,7 +36,7 @@ fetch(requestURL)
 
             let image = document.createElement('img');
             image.setAttribute('src', businesses[i].imageurl);
-            image.setAttribute('alt', businesses[i].name + ' ' + businesses[i].address + ' - ' + businesses[i].phone + ' - ' + businesses[i}.email + ' - ' + businesses[i].website + ' - ' + businesses[i].order);
+            image.setAttribute('alt', businesses[i].name + ' ' + businesses[i].address + ' - ' + businesses[i].phone + ' - ' + businesses[i].email + ' - ' + businesses[i].website + ' - ' + businesses[i].order);
             card.appendChild(image);
             document.querySelector('div.bcards').appendChild(card);
         }
