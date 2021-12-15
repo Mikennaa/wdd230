@@ -88,18 +88,16 @@ body {
 .socialicons {
     padding:10px;
 }
-
 img.socialicons {
     width:10%;
     display: flex;
     justify-content:center;
     padding:6px;
 }
-
 /*------Home Page-------*/
 .herodiv {
     position: relative;
-  }
+}
 .wsummary h3 {
     text-align:left;
     text-decoration:underline;
@@ -132,29 +130,31 @@ img.socialicons {
 #desc {
     text-transform:capitalize;
 }
-.homebtn {
-    color:white;
-    padding:15px 32px;
+.homebtn { 
+    border: none;
+    color: white;
+    padding: 15px 15px;
     text-align: center;
-    text-decoration:none;
-    display:inline-block;
-    margin:4px 2px;
-    background-color:#2D5771;
+    text-decoration: none;
+    display: inline-block;
+    margin:10px;
+}  
+.homebtn {background-color: #2D5771;
 }
-.bcards {
+.bcards img{
     display:flex;
     flex-direction:column;
     justify-content:center;
-    width:10%;
-    padding:5rem;
+    width:80%;
     border:7px solid #FFFFFF;
+    padding:1rem;
 }
 .homeSpotlight {
     background-color:#2D5771;
     color:#FFFFFF;
     padding:5rem;
 }
-.forecast {
+div.forecast {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align:center;
