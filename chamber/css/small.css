@@ -130,10 +130,12 @@ img.homeSpotlight {
 .category {
     text-align:right;
     font-family:'Raleway', sans-serif;
+    font-weight:bold;
 }
 .conditions {
     color:#2D5771;
     font-family:'Raleway', sans-serif;
+    font-weight:bold;
 }
 #desc {
     text-transform:capitalize;
