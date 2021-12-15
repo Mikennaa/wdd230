@@ -133,18 +133,18 @@ img.socialicons {
 #desc {
     text-transform:capitalize;
 }
-img.homeSpotlight {
+.bcards {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
     width:10%;
     padding:5rem;
+    border:7px solid #FFFFFF;
 }
 .homeSpotlight {
     background-color:#2D5771;
     color:#FFFFFF;
     padding:5rem;
-    display: flex;
-    flex:100%;
-    flex-direction:column;
-    justify-content:center;
 }
 
 .forecast {
