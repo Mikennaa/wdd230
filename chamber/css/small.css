@@ -107,9 +107,12 @@ img.socialicons {
     width: max-content;
     box-shadow: 0 0 5px #011126;
     position:absolute;
+    bottom:15px;
+    left:15px;
 }
 .weathersummary {
     grid-column:1/3;
+    margin:.2em;
 }
 img.homeSpotlight {
     width:10%;
