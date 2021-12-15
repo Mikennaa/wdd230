@@ -170,18 +170,15 @@ p.contactinfo {
     padding:0;
     justify-content: center;
 }
-
 .bgallery {
     position:relative;
     margin:0;
     overflow:hidden;
 }
-
 .bgallery img {
     width:50%;
     border: 4px solid #D2E7FA;
 }
-
 .bgallery li p {
    padding:5px;
 }
