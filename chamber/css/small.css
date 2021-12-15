@@ -189,24 +189,22 @@ div.forecast {
 }
 .dayweather {
     background-color:#D2E7FA;
-}
-p.hcontactinfo {
-    line-height:2rem;
-    color:#FFFFFF;
-}
+}  
 h2.hcontactinfo {
     color:#FFFFFF;
 }
 .hcontactinfo {
     padding:.5rem;
     background-color:#2D5771;
+    color:white;
+    line-height:2rem;
 }
 .homemap iframe {
     padding:1.5rem;
     justify-content:center;
     width: 50%;
     height:auto;
-    border: 7px solid #FFFFFF;
+    border:7px solid#FFFFFF;
 }
 /*------Join Page ---------*/
 .joinpage {
