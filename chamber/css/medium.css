@@ -17,4 +17,8 @@ b.cards img {
 .contactmap iframe {
     width:70%;
 }
+/*----Directory Page----*/
+.bcards {
+    grid-template-columns: 1fr 1fr;
+   }
 }
