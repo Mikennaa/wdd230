@@ -186,6 +186,13 @@ div.forecast {
 .dayweather {
     background-color:#D2E7FA;
 }
+.homemap iframe {
+    padding:1.5rem;
+    justify-content:center;
+    width: 30%;
+    height:auto;
+    border: 7px solid #D2E7FA;
+}
 /*------Join Page ---------*/
 .joinpage {
     padding:2rem;
