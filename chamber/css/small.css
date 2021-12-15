@@ -283,5 +283,19 @@ p.contactinfo {
 .board p {
     font-weight:bold;
 }
-
+/*----City of Grace-----*/
+.graceCity p {
+    padding:.5rem;
+}
+.graceCity h3{
+    font-weight:bold;
+}
+.cityEvents {
+    background-color:#2D5771;
+    color:#FFFFFF;
+    padding:5px;
+}
+.cevents p{
+    line-height:2rem;
+}
 
