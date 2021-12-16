@@ -15,11 +15,11 @@ fetch(apiURL)
     const wind = document.querySelector("#wspeed").textContent;
     let chill = "";
     if (tempF <= 50 && wind > 3) {
-      chill = windChill(tempF, wind);
+      chill = wChill(tempF, wind);
     } else {
       chill = `N/A`;
     }
-    function windChill(tempF, wind) {
+    function wChill(tempF, wind) {
       let chill =
         35.74 + 0.6215 * tempF - 35.75 * Math.pow(wind, 0.16) + 0.4275 * tempF * Math.pow(wind, 0.16);
       return chill.toFixed(0);
@@ -32,9 +32,9 @@ fetch(castURL)
   .then((response) => response.json())
   .then((jsfObject) => {
     const list = jsfObject["list"];
-    const threeDay = list.filter((list) => list.dt_txt.includes("18:00:00"));
-    console.log(threeDay);
-    threeDay.forEach((threeDay) => {
+    const threeDays = list.filter((list) => list.dt_txt.includes("18:00:00"));
+    console.log(threeDays);
+    threeDay.forEach((threeDays) => {
       let castInfo = document.createElement("div");
       let castDay = document.createElement("div");
       let castDiv = document.createElement("div");
@@ -42,20 +42,20 @@ fetch(castURL)
       let castTemp = document.createElement("div");
       let span = document.createElement("span");
 
-      let dayName = new Date(threeDay.dt_txt).toLocaleString("en-us", {
+      let dayName = new Date(threeDays.dt_txt).toLocaleString("en-us", {
         weekday: "short",
       });
 
       castDay.innerHTML = `${dayName}`;
-      castTemp.innerHTML = `${threeDay.main.temp.toFixed(0)}`;
+      castTemp.innerHTML = `${threeDays.main.temp.toFixed(0)}`;
       span.innerHTML = `°F`;
       castDay.className = "days";
       castDiv.className = "daysweather";
       imgIcon.setAttribute(
-        "src",`https://openweathermap.org/img/w/${threeDay.weather[0].icon}.png`
+        "src",`https://openweathermap.org/img/w/${threeDays.weather[0].icon}.png`
       );
       imgIcon.setAttribute(
-        "alt",`Icon showing ${threeDay.weather[0].description}`
+        "alt",`Icon showing ${threeDays.weather[0].description}`
       );
       castInfo.appendChild(castDay);
       castInfo.appendChild(castDiv);
