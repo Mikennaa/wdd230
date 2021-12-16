@@ -340,19 +340,16 @@ p.contactinfo {
 .bcards p {
     text-align:center;
 }
-b.cards img {
-    max-width:60%;
-    box-shadow: 0px 0px 10px 2px #011126;
-    margin:1rem;
-}
-
 .column {
     float:left;
     width:50%;
     padding:10px;
 }
-.row:after {
+.bcards:after {
     content: "";
     display:table;
     clear:both;
+}
+.column img {
+    width:40%;
 }
